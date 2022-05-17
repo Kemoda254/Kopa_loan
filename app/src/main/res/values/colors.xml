@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#20B8C6</color>
+    <color name="txtMain">#211A23</color>
+    <color name="coloraccept2">#211A23</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="tint">#727070</color>
+    <color name="common_google_signin_btn_text_light_default">#FFFFFF</color>
+    <color name="menutext">#107832</color>
+    <color name="menuasset">#19987F</color>
+    <color name="colorHint">#B54B4E4E</color>
+    <color name="edit_text">#070707</color>
+    <color name="colored">#D1C2C2</color>
+    <color name="text_input">#B30C0B0B</color>
+    <color name="coloredtext">#0A0A0A</color>
+    <color name="redd">#850F0F</color>
+    <color name="bg_small">#FFFFFF</color>
+    <color name="text_hint">#B30C0B0B</color>
+    <color name="bg_blue">#085F85</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg_draw">#167774</color>
+    <color name="bg_">#F9FAFB</color>
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="colorbtn">#ffffff</color>
+    <color name="lay1">#ffffff</color>
+    <color name="btncolorly">#195A8E</color>
+    <color name="gradStart">#127983</color>
+    <color name="gradStop">#10544c</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+    <color name="main_layout">#FDFFFF</color>
+    <color name="lay3">#16BBBB</color>
+    <color name="lay2">#FFFFFF</color>
+    <color name="footer_text">#FDFFFF</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="pending">#F80404</color>
+</resources>

@@ -1,0 +1,1988 @@
+<resources>
+    <string name="app_name">Kopeshwa</string>
+
+
+    <string name="appSDK_applovin">T3u_2BblliloQsw56cevn2vbN_9IGxpG2oO_HgNcTTn00qLb46_nRTiZ-ZeeR5EbV055KBH57mapRktfCliryb</string>
+    <!--    <string name="appSDK_applovin">T2xy13KM-rwyEREnEOTuwtSRa8fue4A88kVcgUT05_Pc-GgOSwh_l8xaTAM2qLz5ynvdlE_wqOEBqNGo8ovkAs</string>-->
+    <string name="bannerID_applovin">6bf17c61dfcab786</string>
+    <string name="intersID_applovin">e288215387d7ddc7</string>
+    //tapdaq
+    <string name="applicationid">61542c2808fe6c2d735d6ee4</string>
+    <string name="textamount"> Pay "\n"kshs:
+    </string>
+    <string name="appkey">e7a7c36c-bfcc-44bf-adc1-e2de71f8ae12</string>
+    <string name="dearcus">
+         Dear customer, "\n"
+         Our company is committed to serving our customers "\n" based on trust and loyalty,
+         It requires you to pay a customer committment fee to our:"\n"
+         Till number: <font color='#3700B3'><bold> 9350873 </bold></font> "\n"
+         Till name:  <font color='#4CAF50'><bold> Mega Tech Solutions</bold></font>
+    </string>
+
+    <string name="confirmaccount">
+     <b>
+        "\n"
+        1. Go to mpesa "\n"
+        2. Lipa na mpesa "\n"
+        3. chose buy goods and services "\n"
+        4. Enter business no: <b>"9350873"</b> "\n"
+        5. Enter amount "\n"
+        6. Enter pin "\n"
+        7. Wait for confirmation message "\n" "\n"
+    </b>
+
+    </string>
+
+
+
+    <string name="facebook_app_id">6009517699119797</string>
+    <string name="fb_login_protocol_scheme">fb6009517699119797</string>
+    <string name="registertext">All the information you provide \nare encrypted and secured</string>
+    <string name="applytext">Dear Customer, \n \nConsidering your MPESA transaction history, your loan level is Gold. You qualify for a loan upto KES.41,000. \n \nFor this first time application, We will offer you a loan of KES.24,000. \n\n Please note that you have to honor repayment dates to get the maximum loan limit or more.</string> <string name="ad_interstitial" translatable="false">ca-app-pub-1539161823764074/6510197402</string>
+    <string name="procedure">1. Create you account/Login \n 2. Enter Identification Details \n 3. Enter loan amount \n</string>
+    <string name="get_loan">GET LOAN IN 3 EASY STEPS</string>
+    <string name="status_pending"> Congratulations Your Request was Submitted Successfully,Once Approved You Will Receive Notification SMS </string>
+    <string name="slide_1_title">Hello There!</string>
+    <string name="slide_1_desc">Qualify for instant loans upto KES. 75,000. Anywhere, anytime</string>
+
+    <string name="slide_2_title">No Delays</string>
+    <string name="slide_2_desc">Receive money to your phone directly in less than 24 hours</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on your loan repayments depending on the number of your referrals</string>
+
+    <string name="slide_4_title">Simple and Transparent</string>
+    <string name="slide_4_desc">Borrow with confidence, repay with much ease</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string-array name="countries">
+        <item>ZENKA Loan Kenya</item>
+        <item>Berry Simple Swift Loans</item>
+        <item>Branch Loan APP</item>
+        <item>PesaFlash Mobile Loans</item>
+        <item>Barclays-Timiza</item>
+        <item>Okolea</item>
+        <item>Tala Loans</item>
+        <item>HF WHIZZ</item>
+        <item>KCB M-Pesa</item>
+        <item>Okash Loan App</item>
+        <item>Stawika</item>
+        <item>Afrikaloan Kenya</item>
+        <item>Safaricom Fuliza</item>
+        <item>Fadhili</item>
+        <item>Haraka Mobile Loans</item>
+        <item>Pezesha</item>
+        <item>Senti</item>
+        <item>Ipesa- Fast Credit</item>
+    </string-array>
+    //tala
+    <string-array name="Funny">
+        <item>What is Tala App </item>
+        <item>How does Tala work?</item>
+        <item> How do I apply for an instant loan at Tala? </item>
+        <item>Tala loan app repayment</item>
+        <item>How do I pay my Tala loan to another number?</item>
+        <item>Tala loan app advantages</item>
+        <item>Tala loan app disadvantages</item>
+        <item>How to reset Tala loan PIN</item>
+        <item>Terms and Conditions</item>
+
+
+    </string-array>
+    <string name="tala_header">Downloads : 5,000,000+</string>
+    <string name="tala_footer">Minimum Amount : Ksh 1000.0</string>
+    <string name="Tala_about_1"> Tala is a mobile lending app that provides access to credit to people living in Kenya, Mexico, Tanzania, Philippines, and India.
+        The app was formerly known as Mkopo Rahisi, and it belongs to a California-based finance company in Kenya that offers instant unsecured mobile loans to Kenyans. The company was formerly known as Inventure, and as things stand, This is Kenya\’s number one microfinance App.</string>
+    <string name="Tala_about_2">Once downloaded from Google Play Store and installed on your phone. Tala Loan App scans your SMS folder for Mpesa transaction history and your voice call pattern history to build a credit score.They also use different data like your income level, your Mpesa usage and your loan repayment history from other providers.
+        The app does not require any security and the average credit is Ksh 10,000, but first-time applicants are given a minimum of Ksh 500 and have to build their creditworthiness over time. The loan increment eligibility depends on your repayment behaviour of previous loans.
+        Sometimes back, they used to offer a maximum of Ksh 50,000. Today, Tala offers a minimum loan amount of Ksh 500 to first-time users and up to a maximum of Ksh 30,000 for subsequent users with good loan repayment history.
+        They have claimed that they don\’t charge interest on loans instead take a service fee. This service fee depends on the loan repayment schedule you choose. The 1st one is a 30-day loan that attracts a 15\%% service fee, and The other option is a 21-day loan offer that attracts an 11\%% service fee..</string>
+    <string name="Tala_about_3">You don’t need Tala APK
+You also don’t need a tala loan application form.
+Link the app to your active Facebook account to register as a customer.
+Provide further information to Tala such as your phone number and also by answering correctly the few personal questions provided.
+Tala loan qualification is dependent on the feedback you give on these questions.
+Relax, play or do something else while you wait for Tala to do their magic.
+Check back after a while to confirm whether you have qualified and to also view your available loan amount.</string>
+    <string name="Tala_about_4"> Tala loan repayment can be made in several ways, including:
+
+        <b>Through the app</b>
+All you need to do is open the app; it will display your current loan and ask you to make payment. This process will automatically open the M-Pesa Menu on your phone. You can copy-paste the values shown and make payment.
+
+<b>Through Tala Pay bill number</b>
+Tala loan is also repaid directly through Mpesa Pay bill number 851900 and your registered Tala phone number as the account number.
+
+</string>
+    <string name="Tala_about_5"> Access the Mpesa menu on your phone
+Select the Lipa Na Mpesa menu option followed by PayBill
+Enter Tala Paybill number 851900.
+Enter your phone number as the account number
+Follow Mpesa system prompt to complete your transaction (Mpesa charges apply)
+You should receive an SMS message from Inventure Mobile Kenya confirming your loan repayment.
+Apart from the above method, you can use another person’s number to repay your loan. This is as long as you use your registered Tala phone number as the account number..</string>
+    <string name="Tala_about_6"> Once you are qualified for a loan, the disbursement is fast hence making it reliable for emergency loans.
+Ample repayment period even if your loan repayment date is overdue.
+Loan defaulters are given a grace period of 60 days before being blacklisted.
+Tala loan app provides scheduled loan notification of repayments to their customers.</string>
+    <string name="Tala_about_7"> High loan Interest rates compared to other free loan app operators.
+With Varying interest rates from one customer to another and credit limit, it is challenging to determine your loan interest rate.
+Kindly remember that all non-performing loans of more than 90 days overdue are listed as defaulter as provided in section 18 of the Credit Reference Bureau Regulations ACT 2013.</string>
+    <string name="Tala_about_8"> Here is how to reset your PIN in case you’ve forgotten it.
+
+Open the Tala APP, select “Forgot Pin?”
+Enter your ID number to get a new temporary PIN.
+The new temporary PIN will be sent to you by SMS.
+Use this temporary PIN to log in and then immediately set a new PIN.
+        <b>What if your phone is linked to another Tala account?</b>
+Well, here’s a way around it if your mobile device is linked to another person.
+        If your phone is second hand and you know the previous owner, ask them to send Tala a message via email, SMS or Facebook to confirm ownership.
+
+One last thing, Tala only allows one user per device. Well, well, well, If you find this post exiting and insightful, why don’t you hit the share button below. Remember sharing is caring! Cheers</string>
+    <string name="Tala_about_9">InVenture Capital Corporation, a California corporation, and its Kenyan subsidiary InVenture Mobile Limited (collectively, “Tala”) take your privacy very seriously. This Privacy Policy explains what personal information we collect, with whom we share it with, and how you (the user of the Service) can prevent us from sharing certain information with certain parties. You should read this Privacy Policy in its entirety. Certain sections may apply differently to residents of different jurisdictions. By downloading Tala, you consent to the following:.</string>
+
+
+    //branch
+    <string-array name="Crazy">
+        <item>What is Branch loan app?</item>
+        <item>How does Branch app work?</item>
+        <item> Branch loan limits and interest charges</item>
+        <item>How to Repay your Branch loan</item>
+        <item> ATM card payments in the Branch app</item>
+        <item>How to earn commission on Branch app</item>
+        <item> Branch loan contacts details</item>
+    </string-array>
+
+    <string name="branch_header">Downloads : 5,000,000+</string>
+    <string name="branch_footer">Minimum Amount : Ksh 250.0</string>
+    <string name="branch_about_1"> Branch loan is a product of Branch International, which is a microfinance lending institution that operates in Kenya and other countries.
+The Branch loan application is easy to download and use. It only takes a few seconds to sign up into the application and apply for a loan.
+Once approved, the money is sent straight to your phone.
+</string>
+    <string name="branch_about_2"> The Branch international loan application utilises machine learning algorithms to process numerous data entries and assess customers’ credit profiles, as well as, design tailored loan products.
+        The data is collected by accessing information on customers’ phone.
+        The information assessed includes:\n
+        1. GPS data Call logs\n
+        2. Text message logs\n
+        3. Contact lists\n
+        4. Mpesa activity\n
+        5. Handset details\n
+        6. Social network data\n
+        <b>Note:</b> Branch accesses this type of information by first requesting permission from the customer.
+        The company uses this information to verify a customer’s identity, as well as, to create a credit score for them. It also encrypts the data to protect the privacy of its clients.</string>
+    <string name="branch_about_3"> Branch loan limits in Kenya range between Kshs 250 and Kshs 70,000 over a period ranging between 4 and 68 weeks.
+        You can grow your loan limit by repaying loans earlier; that is, before the due dates.
+        Furthermore, you can boost your Branch loan limit by requesting for their loans occasionally. This increases your digital footprint in their system.
+        The Branch loan interest rates in Kenya range from 10 to 27 per cent. This translates to a monthly interest rate of between 1 and 21 per cent.</string>
+    <string name="branch_about_4">The good news with the Branch loan is that it can easily be repaid through Mpesa or using the automatic pay feature.
+        The following steps are a guide on how to pay branch loan via Mpesa:
+        1. Open the Mpesa Menu on your phone.
+        2. Choose the Lipa na Mpesa option.
+        3. Click paybill.
+        You will be prompted to enter the paybill number. The Branch loan paybill number is 998608. This is the number you enter here.
+        4. Key in the account number. The account number refers to the mobile number you registered with Branch. In this case, it is your Safaricom number.
+        5. Key in the amount you wish to repay.
+        6. Enter your Mpesa pin and authorise the transaction.
+        7. Wait for a message from Mpesa confirming the transaction.</string>
+    <string name="branch_about_5">1. Go to \'My Loan\', tap the round \'Tap to Pay\' button.
+        2. Select the Amount you wish to repay. You can choose to pay the:
+        Next Amount Due
+        Total Balance
+        Other Amount (you will be required to fill the amount you want to pay)
+        3. After you have made your selection, tap \'Continue\'.
+        4. Add your Debit (ATM) card details:
+        Enter your ATM card details:
+        Card Number (16 or 19-digit in front of your card)
+        Card Expiry Date (Month and Year in which your card expires)
+        CVV (a 3-digit number at the back of your card)
+        5. After you have filled in the details, tap \'Continue\'.
+        6. Choose your auto-debit setting under \'Payment Options\' and tap \'Continue\'.
+        7. To secure your payment, some banks will ask for your pin or send a security code to your phone.
+        8. Your payment is done. If successful, your account will be updated automatically within a few seconds.</string>
+    <string name="branch_about_6"> Branch is a Mobile loan app with a difference. They appreciate the trust you have with them to the point of rewarding you commissions for any referral made.
+        Your friends should enter your promotion code in the branch app under the ‘promotions’ tab
+        You will receive a message when your invited friends apply your promotion code
+        You will receive ksh500 every time a friend repays their first loan
+    </string>
+    <string name="branch_about_7"> There are many ways to get branch loan contacts and here are the 4 main ways you as a client can use to contact the mobile loan lender;
+        The first way is through the APP itself where there is a customer care service.
+        You can also use this email address support@branch.co to contact Branch International.
+        They have an active Facebook page.
+        You can also find them on Twitter.</string>
+
+    //timiza
+    <string-array name="Romantic">
+        <item>What is Barclays Timiza Loan?</item>
+        <item>What are the requirements for a Barclays Timiza Loan?</item>
+        <item> Why you may not be able to access Timiza loan</item>
+        <item>How do I get Timiza loan through SMS?</item>
+        <item>How to pay Timiza loan via Pay bill</item>
+        <item>Timiza loan charges</item>
+        <item>Timiza Contacts</item>
+
+
+    </string-array>
+
+    <string name="timiza_header">Downloads : 1,000,000+</string>
+    <string name="timiza_footer">Minimum Amount : Ksh 1000.00</string>
+    <string name="timiza_about_1">Barclays Timiza Loans are a quick access to credit, devoid of the officialdom associated with acquiring loans.
+        For one, you do not need to fill out an application form in order to receive a Barclays Timiza loan.
+        Since Barclays Timiza can only be accessed via phone, you need not visit busy and crowded banking halls to receive your loan.
+        Once your loan application is approved and the loan is processed, the funds will be deposited into your Barclays Timiza Account, and you can access the funds by transferring the amount to your M-PESA account.
+        This M-PESA account should be the one registered under your Barclays Timiza Account.</string>
+    <string name="timiza_about_2">For one, you need to be an active M-Pesa subscriber for at least six months preceding the date of application of the Barclays Timiza Loan.
+        Next, you need to ensure that you have been undertaking transactions on Barclays Timiza.
+        Furthermore, to increase our chances of getting your loan request approved, you need to have been actively using other Safaricom services prior to your application of the loan.
+        Such Safaricom services include, but are not limited to, data services, voice services, and M-Pesa services.</string>
+    <string name="timiza_about_3">So, what are the reasons behind the fact that you cannot access a Barclays Timiza loan?
+        For one, you may have been listed by Credit Reference Bureaus(CRBs).
+        You may have a low credit rating.
+        Furthermore, you may not be able to access a Barclays Timiza Loan because you already have an existing Barclays Timiza Loan. </string>
+    <string name="timiza_about_4">These are the steps to follow if you wish to apply for a Barclays Timiza Loan through the Barclays Timiza app:
+        1. Installing Timiza app on your android phone:
+        a)  Go to Google play store and search for Timiza
+        b) Click on the install button
+        c) Once installed, click on Open
+        d) Allow the Timiza app to make /manage calls / read messages
+        e) Enter your Safaricom line, ID number to register
+        Once done, you will set a pin for logging the app.
+        2. Log in to the app using the necessary credentials. You shall see that your loan/credit limit is displayed on the app.
+        3.  Select ‘My Loans’.
+        4. Select ‘Request Loan’.
+        5. Enter the amount you wish to borrow.
+        6. Select ‘Continue’. </string>
+    <string name="timiza_about_5">You can pay the Timiza loan via MPESA business number 300067, account number is the Safaricom phone number.
+        Or you can simply dial *848# . Enter the pin, select loan option, and select pay loan .
+        Here is how to pay using the the MPESA business number:
+        1. Go to MPESA.
+        2. Select Lipa na MPESA.
+        3. Select Paybill Option.
+        4. Enter the Business number as 300067.
+        5. Enter your Timiza Registered phone number as the account number.
+        6. Enter your Payment Amount.
+        7. Enter your MPESA Pin.
+        8. Confirm the details are correct then press OK.</string>
+    <string name="timiza_about_6">The loans you apply through the Timiza loan app have the following charges and interest rates:
+        The interest rate of CBR (Credit Bureau Report) + 4\%%.5\%% loan processing fee of the amount of the loan.A rollover fee of 5\%% of the outstanding amount on the loan if your loan hasn\’t been paid within 30 days. This fee stands for the next 30 days.
+        There are no other charges for the loans from Timiza beyond these ones..</string>
+    <string name="timiza_about_7">At times, Timiza may still contact you to pay your loan even when you’ve already paid the loan. Other issues you experience will also need resolving and you can contact Timiza through the following avenues:
+        Call their customer care through 070921300.
+        Social media avenues such as their Facebook page which is the fastest of all methods as per the users.
+        Through the WhatsApp number 0712233248.
+        Through email timiza@barclayscorp.com.
+        These avenues will help resolve the issues you face either through the app or the SMS service.</string>
+
+
+    //zenka
+    <string-array name="Angry">
+        <item>How Zenka loan works</item>
+        <item>Zenka Loan limits and interest rate charges</item>
+        <item>How to apply for a loan extension by USSD</item>
+        <item> How to repay Zenka Loan through M-Pesa</item>
+        <item>Special offer for new Clients – first loan for free!</item>
+    </string-array>
+    <string name="zenka_header">Downloads : 500,000+</string>
+    <string name="zenka_footer">Minimum Amount : Ksh 500.00</string>
+    <string name="zenka_about_1"> Zenka loan application uses machine learning algorithms to access the individual’s credit profiles, process various data entries and design the ideal loan product for a person. Some of the data collected by this application are GPS data, device information, contact list, SMS log, call log and repayment history. Before the application can access all this information, you will first have to give your consent. The collected data is used to verify the customer’s identity, protect his/her identity as well as create a credit score for him/her.</string>
+    <string name="zenka_about_2"> Zenka loan limit ranges from Kshs. 500 ($5) to Kshs. 20,000 ($200) and the repayment ranges between 7-30 days. Paying the loan on time is a sure way of increasing your loan limit. Zenka loan will also charge 11% interest rate to users who repay their loans within 30 days.</string>
+    <string name="zenka_about_3">To extend a loan by using USSD service, follow the steps listed below:
+• Dial the USSD Code *841#,
+• Enter your 4-digit PIN,
+• Select [Extend] and check information about cost and term,
+• Select one of the available options,
+• Follow the payment link and wait for SMS notification.
+
+After your extension payment is successfully processed the due date of your loan will be updated.</string>
+    <string name="zenka_about_4">Open your Mpesa menu
+Select the Lipa na Mpesa option
+Click Paybill
+Enter 979988 as the business number
+Use your phone number (the one you registered with Zenka) as the account number.
+Enter the amount you want to repay.
+Enter your Mpesa pin then authorise the transaction.
+Wait for an SMS from Mpesa that confirms the transaction.</string>
+    <string name="zenka_about_5">Zenka prepares a special offer for new clients. If you have never borrowed from Zenka, you can take the first loan without any costs:
+        no commission
+        0% interest without registration fee
+        (the offer valid on July 25, 2019).</string>
+    <string name="zenka_about_6"> In case of any questions you can:
+• get online support:
+Facebook: https://www.facebook.com/zenkakenya/
+Twitter: https://twitter.com/zenkafinance
+• talk directly to Zenka Customer Care employees:
+telephone number: 0207650878
+• ask questions via e-mail: support@zenka.co.ke
+Help us change for the better!</string>
+
+
+    //berry
+
+    <string-array name="Cool">
+        <item>What is Berry loan app</item>
+        <item>How does Berry Loan App work?</item>
+        <item>How do they determine your credit</item>
+        <item>How do I get a Loan from Berry Loan App?</item>
+        <item>How to repay the Loan</item>
+        <item>Can I trust Berry with My data </item>
+        <item>What happens if I repay my loan late?</item>
+
+    </string-array>
+    <string name="berry_header">Downloads : 500,000+</string>
+    <string name="berry_footer">Minimum Amount : Ksh 500.00</string>
+    <string name="berry_about_1">Berry is Kenya’s most flexible mobile lending app. We
+strive to provide financial inclusion for people from all
+walks of life by leveraging on technology to provide
+cash loans right on their mobile phones at low and
+easy repayment schedules. We make it effortless
+for you to access credit, wherever and whenever you
+need it. Complete our easy application procedure
+and you will promptly receive your loan straight into
+your mobile money wallet Berry is the mobile app that
+brings colour, vivacity and the juice in life. Berry. More
+cash, more life
+</string>
+    <string name="berry_about_2">Just like any other loan app, Berry app uses the
+machine learning algorithm to validate your
+identity and also to determine your loan limit and
+creditworthiness.
+After installation, of course with your permission, the
+app, scans and reads data on your phone. It reads
+information such as;
+• Mpesa transactions messages
+• Phonebook records
+• Speed dial
+• Mobile-phone usage patterns
+• Airtime reloads and usage
+• And, lastly, it checks your voice call patterns.</string>
+    <string name="berry_about_3">Your credit amount is determined by a number of
+factors, including repayment history. If you repay
+each instalment by its due date, you boost your
+chances to access larger loan amounts in future. Note
+that the increase may not always be immediate and
+that repaying your loan late may result in reduced
+loan offers.
+</string>
+    <string name="berry_about_4">• On your mobile phone, open Google Playstore and
+search for Berry.
+• Download and install the app, but first, read
+the terms and conditions.
+• Once you’ve installed the app, open it and proceed
+straight to registration.
+• Enter the information required truthfully and login
+once your registration process is successful.
+•
+“Apply Now”
+To apply for a loan, click on the
+button and then, select your loan amount and
+repayment options.
+• If approved, the loan amount will be credited straight
+to your M-pesa account.
+</string>
+    <string name="berry_about_5">To make a repayment, please follow the following
+steps
+• Navigate to MPESA in your Safaricom menu on your
+phone
+• Select Lipa na MPESA
+• Choose the Paybill option
+• Enter the Paybill number 977888
+• For account number, enter your MPESA number on
+which you received your Berry loan
+• Enter your repayment amount
+• Enter your MPESA pin
+• Confirm that all details are correct and press ‘OK’.</string>
+    <string name="berry_about_6">Berry uses exceptional data security and encryption
+methods to protect the data you share with us as per
+GDPR regulations. We hold and maintain the data in
+strictest confidence. We never share your information
+with third parties unless it is for dedicated business
+purposes, such as reporting defaulted loans to
+authorized credit bureaus. We do not sell your data or
+credit profile.
+</string>
+    <string name="berry_about_7">Late repayments will affect your ability to access
+future or larger loans and it also attracts a rollover
+fee. If you are very late on your payments, we report
+to the Credit Reference Bureau (CRB). Negative listing
+by the CRB may affect your ability to access loans
+from other lenders.</string>
+
+    //hfwhizz
+    <string-array name="Emotional">
+        <item>How HF Whizz loan app works</item>
+        <item> How do I register on HF Whizz</item>
+        <item>How to create an account on HF Whizz</item>
+        <item>Whizz loan app features</item>
+        <item> Applying for a loan on HF Whizz loan app</item>
+        <item>Repaying a Loan from HF Whizz</item>
+        <item>Contact HF Whizz Team</item>
+    </string-array>
+    <string name="hf_header">Downloads : 100,000+</string>
+    <string name="hf_footer">Minimum Amount : Ksh 500.00</string>
+    <string name="hf_about_1"> The app will be giving out soft loans to its users since it will mainly be serving entrepreneurs. This is because entrepreneurs need a helping hand at one time or another.
+        This is because this group sometimes faces cash crunches because they sometimes have to supply goods on credit, which usually takes about 30 days or more to be paid. During this time, bills have to be paid, and one has to restock.
+        Housing finance Whizz imposes an interest rate of 7.725% on approved loans. The loan amount will depend on your transactions on the account and M-Pesa. The app is available on Google play store for Android users.
+        I found the Whizz app similar to Timiza loan app. I did not have to deposit anything yet received a loan of more than 20,000 on day 1.</string>
+    <string name="hf_about_2">To register on HF Whizz App, you do not need to have a physical account with the Housing Finance Bank. As long as you have an ID card, you are eligible to use the Whizz App.
+        Related: Afrika loan app download – New.
+        To register on the App, you should download the app and install it on your device then create your account on it. Your account is where you will be conducting your transactions..</string>
+    <string name="hf_about_3"> This is Kenya’s number one microfinance App.</string>
+    Open the HF Whizz app on your device
+    Provide the required details. (Includes phone number and ID number)
+    Input the verification code sent to you via SMS
+    Set your pin
+    The account is activated.
+    It only takes a few minutes for you to have an active account. Or we may say, your account is up
+    and running in a ‘Whizz’.
+    <string name="hf_about_4"> With this app, you can do more than just getting a loan. For instance, you have the following features.
+
+<b>Payments</b> – You can Pay for goods directly from your HF account.
+        <b>Transfer Money</b> – You can do HF to HF account transfers for FREE, Send money from your account to M-Pesa of transfer from HF account to another bank account.
+        <b>Save</b> – If you are looking for a safe place to keep your money, you can deposit and save money to make your dreams a reality.
+        <b>You get a Budget tracker</b>
+        <b>Buy airtime</b> – The app allows you to buy airtime for you or a friend straight from the app.</string>
+    <string name="hf_about_5"> Am using Android device, I don\'t know about the iOS whizz experience. However all loans attract an interest of CBR plus 4\%% and 6\%% commission  fee. Loans start from ksh.1000 to a maximum of ksh.50000
+        Open the app
+        Select Loans
+        Enter your PIN
+        Select duration,
+        Input amount you wish to borrow (not to exceed loan limit)
+        Choose reason for loan
+        Proceed.
+        Your loan will then be deposited into your Whizz account. Choose Send Mpesa to transfer the money to your Mpesa number</string>
+    <string name="hf_about_6"> Loans can be repaid through HFC Bank deposit, pay from Mpesa or pay from Whizz account.
+        Repayment period ranges between 1 day and 180 days (6 months) depending on the loan taken.
+        Open the app
+        Select Loans
+        Select Repay Loan
+        Enter amount
+        Proceed to repay using your Whizz account.
+        If you choose Mpesa (if your Whizz account balance is insufficient),
+        you\'ll be prompted to enter your Mpesa PIN to complete the transaction.
+        You\'ll then receive a notification about the repayment. .</string>
+    <string name="hf_about_7"> If you have the app, just open the app, select the menu on top left hand corner and then select \'Contact us \'.
+        You can then write a message ,call, email or check HFC social media pages.
+        You can reach out to the help team through directly here;
+        Toll free number; 0800721400
+        Call; 0709438888
+        Call ; 020 326 2888
+        Email; customer.service@hfgroup.co.ke</string>
+
+    //kcbmpesa
+    <string-array name="Love">
+        <item>What is KCB M-Pesa</item>
+        <item>Process of getting the KCB M-PESA loan</item>
+        <item> Eligibility for the loan</item>
+        <item>Features of a KCB M-Pesa</item>
+        <item>Security, Interest and Time limit</item>
+        <item> Target savings account</item>
+        <item>How to activate KCB Mpesa on phone</item>
+    </string-array>
+
+    <string name="kcb_header">Downloads : 1,000,000+</string>
+    <string name="kcb_footer">Minimum Amount : Ksh 100.0</string>
+    <string name="kcb_about_1">Need to save? Weka-weka na KCB M-PESA and grow your money easily on your phone. Saving means you enjoy quick mobile loans from this loan app, with interest rates of over 6% p.a*. It’s fast and easy, plus, the more you save, the more you can borrow. Go to MPESA>Loans &amp; Savings>KCB MPESA>Open Target Savings Account to get started. T&amp;Cs Apply*.</string>
+    <string name="kcb_about_2">Dial USSD code *844# and enter KCB M-PESA PIN.
+    Select loan then request loan and enter amount
+    Select the preferred time (1, 3or 6 months).
+    Funds are then transferred to your KCB M-pesa Account net of facility fee.
+    NB: you will receive a confirmation message from both the KCB M-pesa Account and M-pesa.</string>
+    <string name="kcb_about_3">All frequent users of Safaricom services and existing KCB account holders will be allocated a loan limit upon opting into the KCB M-PESA Account. Not all customers are eligible for loans immediately. You will have to top up continuously until you achieve your target.
+        To get a KCB M-pesa loan account, you will need to:
+        Be a registered safaricom M-pesa customer
+        Have an active safaricom M-pesa account for at least 6 months.
+        Hold any of the following; Kenyan National ID, Kenyan passport, Alien ID, Diplomatic ID (Registered on IPRS), Military ID..</string>
+    <string name="kcb_about_4">KCB boasts of a unique App user experience with multi-functional capabilities focusing on not only the conventional mobile banking facilities but with a holistic lifestyle driven approach to an individual.  This includes investment advice and lifestyle features like latest news, sports and social media linkages.
+        Other features open to both KCB customers and non customers
+        Forex Rates - You can view the exchange rates for all major currencies i.e. Euro, British Pound, Japanese Yen and South African rand as per the updates from the Nairobi Stock exchange.
+        Currency Converter - A currency converter calculator.
+        Properties - You can have a view of all the latest properties in the market as registered on the KCB Mortgage portal.
+        News - You can access all the latest news on business, sports and lifestyle features.
+        Overview of KCB products and Request for a KCB Product - You can view all the bank’s products and request for more information.
+        Loan calculator - You can inquire and calculate loan repayment rates.
+        Secured Messaging - Direct secured messaging to KCB.
+        Budget Tracker - Charts and graphs to visualize and analyze spending and account activity.</string>
+    <string name="kcb_about_5">KCB M-pesa loan does not require any security at all to apply. Your loan limit is the only factor considered as you borrow, making it perfect for urgent loans.
+        Loans features are as follows;
+        30 days loans at4\%% to 6\%% per month
+        90 days loans at 3\%% to 5\%% per month
+        180 days loans at 2\%% to 4\%% per month</string>
+    <string name="kcb_about_6">This account allows you to set a target and make deposits towards achieving that target.
+        How does it work?
+        Access M-PESA menu.
+        Select Loans and Savings, KCB M-PESA
+        Select Target Savings.
+        Open Account
+        Open Account
+        Select source of funds;
+        M-PESA
+        KCB M-PESA
+        Enter amount (amount needs to be more than Kes 500)
+        Enter period (1, 3, 6 or 12 months)
+        Enter M-PESA PIN and confirm transaction
+        You will receive an M-PESA confirmation.</string>
+    <string name="kcb_about_7">To benefit from the KCB Mpesa program you must first activate your Mpesa account. This can be done through the mobile phone. Outlined below are the steps that should be followed when activating the KCB Mpesa account; 1. Access the Mpesa menu. You must be a Safaricom user. 2. Click on the loans and savings 3. Select the KCB Mpesa option and activate. 4. You are now good to go. These steps are easy to follow and this should not take a lot of time. Read more: https://www.tuko.co.ke/289092-how-activate-kcb-mpesa-loan-account.html</string>
+
+    //Safaricom-Mshwari
+    <string-array name="Single">
+        <item>What is M shwari?</item>
+        <item>What are the requirements to have an M-Shwari Account?</item>
+        <item> How to activate your line into M-Shwari?</item>
+        <item>Do I need a different PIN to access my M-Shwari account?</item>
+        <item>How do you check your M-Shwari account balance?</item>
+        <item> How to repay your M-Shwari Loan</item>
+        <item>What are the key advantages of M-Shwari service?</item>
+        <item>What are the charges on the M-Shwari service?</item>
+        <item>How do you qualify and request for a M-Shwari loan.</item>
+        <item>How do you check how much M-Shwari loan you canborrow?</item>
+    </string-array>
+    <string name="shwari_header">Downloads : 1,000,000+</string>
+    <string name="shwari_footer">Minimum Amount : Ksh 100.0</string>
+    <string name="shwari_about_1">M-Shwari is a paperless banking service
+offeredthrough M-PESA. It will;
+• Enable you to open and operate an M-Shwari
+bankaccount through your mobile phone, via
+M-PESA,without having to visit banks or fill out any
+forms.
+• Provide you the ability to move money in and out
+of your M-Shwari savings account to your M-PESA
+account at no charge.
+• Give you an opportunity to save as little as Ksh.1and
+earn interest on your saving balance. This cash is
+moved into the savings account via M-PESA.
+• Enable you to access micro-credit product (loan) of
+a minimum of Ksh.100 any time and receive your loan
+instantly on your M-PESA account.
+This is a product for everyone who feels that banking
+should be hassle-free. No forms to fill in, no branches
+to visit. Just one click on your phone and you have a
+savings account!</string>
+    <string name="shwari_about_2">To get an M-Shwari account, you need to be:
+• A registered Safaricom Subscriber.
+• A registered Safaricom M-PESA customer.
+• Have an active Safaricom M-PESA account/line.
+• You need to hold any of the following identification
+documents; Kenya National Identification
+Document(ID); Kenyan Passport Document; Alien ID
+(resident
+Permit) registered by the Government of Kenya.
+</string>
+    <string name="shwari_about_3">To update your Menu
+• Go to the Safaricom menu on the phone.
+• Select “M-PESA”.
+• Go to “My account”.
+• Select “Update Menu”
+• Enter M-PESA PIN
+(Wait to receive the updated M-PESA menu)
+To Opt – in to M-Shwari
+• Go to M-PESA Menu.
+• Select M-Shwari.
+• A message will appear requesting you to read and
+accept the Terms &amp; Conditions.
+• (English: Visit www.cbagroup.com/m-shwari
+www.safaricom.co.ke and Swahili: Tembelea
+www.cbagroup.com/m-shwari www.safaricom.co.ke).
+• After accepting the terms; an SMS will be sent
+informing you that you are now activated on the
+M-Shwari service.
+</string>
+    <string name="shwari_about_4">No. Your M-PESA PIN is the same PIN that you will
+use for your M-Shwari account. Always remember
+PIN YAKO SIRI YAKO.
+.</string>
+    <string name="shwari_about_5">Note that this is also shown at the end of every SMS
+after performing a transaction
+On the customer’s M-PESA menu:-
+• Select M-Shwari.
+• Select show balance.
+• Enter PIN.
+• Wait for SMS confirmation with the message.
+• Bank account Balance message for customer with‐
+out an outstanding loan – {M-PESA ReceiptNumber}
+Confirmed. Your M-Shwari DepositAccountbalance
+is Kshs***** on {TransactionDate:d} at
+{TransactionTime:t}.
+• Bank account Balance message for customers
+with an outstanding loan- {M-PESA Receipt
+Number} Confirmed. Your M-Shwari Deposit
+Account balance is Kshs******. Your outstanding
+loan balance is Kshs**** on {TransactionDate:d} at
+{TransactionTime:t}
+</string>
+    <string name="shwari_about_6">How do you pay for a loan on the service?
+• From ‘M-Shwari’ menu, select ‘LOAN’
+• Select ‘Pay Loan’
+• Enter Amount
+• Enter PIN
+• Confirm the message displayed for example “pay
+loan Kshs 2000” then press OK.
+• A SMS message is sent on successful or
+unsuccessful request.
+</string>
+    <string name="shwari_about_7">• M-Shwari is a paperless (mobile-centric), safe and
+fast service that allows you to save; borrow through
+your phone.
+• M-Shwari has competitive interest rates on savings.
+• Interest is calculated daily and paid out at the end of
+each calendar quarter.
+• There is no minimum balance on M-Shwari.
+• There are no ledger fees.
+• There are no withdrawal charges in moving money
+between M-Shwari account and M-PESA.</string>
+    <string name="shwari_about_8">• There are no ledger fees, no limit on the frequency of
+withdrawals, no minimum operating balance and no
+charge on deposits (M-PESA to M-Shwari Account).
+• The standard M-PESA limits apply; however you
+can deposit as low as ksh.1 in your M-Shwari savings
+account.
+• Enter the amount you want to send.
+• Enter PIN.
+• Confirm the message displayed “send money to bank
+Kshs XXX” then press OK.
+Confirmed. Ksh.XXX transferred to M-Shwari account
+on DD/MM/ YY at 00.00pm. M-PESA Balance
+is KshXXXX, new M-Shwari account balance is
+KshXXXX.</string>
+    <string name="shwari_about_9">In order to qualify for a loan, you will have to be an
+active M-PESA user for at least 6 months, save
+regularly on M-Shwari account and continuously use
+other Safaricom services such as Voice, DATA and
+M-PESA.
+How do you request for M-Shwari loan?
+• From ‘M-Shwari’ menu, select ‘LOAN’
+• Select ‘Request Loan’
+• Enter Amount
+• Enter PIN
+• Confirm the message displayed for example “request
+loan Kshs 2000” then press OK.
+• An initial SMS message will be sent immediately on
+confirmation of the request for a loan.
+• A second SMS message is sent on successful or
+unsuccessful request..</string>
+    <string name="shwari_about_10">•Please dial *234*6# you will get a notification asking
+you if you have read and accepted the terms and
+conditions.
+• This will also give you information on whether you
+are eligible for a loan and the loan amount limit that
+will be awarded to you.
+</string>
+
+
+    //Stawika
+    <string-array name="Wise">
+        <item>What is Stawika loan app?</item>
+        <item>How Does Stawika Loan App Work?</item>
+        <item>How can I register my Stawika loan?</item>
+        <item>How to Repay Stawika Loan</item>
+        <item>How to Increase Stawika Loan Limit</item>
+        <item>Advantages of borrowing from Stawika;</item>
+        <item>Stawika Contacts</item>
+    </string-array>
+    <string name="stawika_header">Downloads : 500,000+</string>
+    <string name="stawika_footer">Minimum Amount : Ksh 500.0</string>
+    <string name="stawika_about_1">Stawika is an Android mobile app currently based
+in Kenya that offers instant mobile loans. Stawika
+automatically evaluates mobile phone data as well as
+other factors to assign loans. This process takes less
+than 5 minutes. Stawi na Stawika, get a quick loan
+straight to your M-Pesa now by downloading Stawika
+for free on Google Play Store. Install, register, borrow
+&amp; grow your loan limit by paying on time. No paper
+work, no complications.</string>
+    <string name="stawika_about_2">There are many factors mobile loans use to assign
+you a loan. Some will use your social media data,
+others will use data from Credit Reference Bureaus
+(CRBs), and others will check your M-Pesa record
+history.
+Stawika automatically evaluates smartphone data
+as well as other factors to assign mobile loans. Once
+they estimate, they will assign a loan to you. Stawika
+Loan App claims to send loans within 5 minutes once
+you request one.</string>
+    <string name="stawika_about_3">Use the following details in your Stawika loan
+application:
+1. Open the Stawika app on your phone
+2. Enter your Stawika PIN
+3. Check your loan limit
+4. Apply for a loan
+5. Upon approval, the loan will be sent to your Mpesa
+number verified by Stawika.
+ </string>
+    <string name="stawika_about_4">Stawika Loan is repaid through M-Pesa, They use the
+PayBill Number 830685 for all Loan Repayments.
+All you have to do is:
+1. Open your Safaricom SIM menu and
+choose M-Pesa.
+2. Go to Lipa Na M-Pesa.
+3. And Select the Paybill option.
+4. Enter the following Stawika business
+number (830685).
+5. Use your phone number as the Account no.
+6. Enter an amount you want to pay (You can repay in
+installments too).
+7. Enter your M-Pesa pin.
+8. Confirm the details.</string>
+    <string name="stawika_about_5">1. Don’t delete your mobile payment SMS messages
+2. Repay your loan on time. The earlier, the better.
+3. Keep the Stawika mobile application installed on
+your phone always.
+4. Have a have a good credit history with other
+creditors.
+</string>
+    <string name="stawika_about_6">• Ease in accessing the money being offered by the
+company, this enables the borrowers to achieve
+their objective and goals much more faster and
+successfully.
+• Low interest being charged on the loans being
+offered, this is due to the aim of attracting more
+customers and also to increase the market presence.
+• Quick response from the application and acces‐
+sibility of the money being offered, the immediate
+response is very convenient during emergencies and
+also for business growth.
+• Stawika has friendly terms of payment which have
+been quite flexible and convenient for anyone who
+wants to borrow money.
+ </string>
+    <string name="stawika_about_7">Use the following Stawika contacts if you are facing
+an issue, they will respond and sort you out.
+• Call them on 0790 523 410
+• Or drop them an email at info@stawika.com
+• You can also find them on
+Twitter, Facebook, and Linkedin
+ </string>
+
+    //Okash
+    <string-array name="Kids">
+        <item>What is Okash Loan App</item>
+        <item>How to register on Okash loan app</item>
+        <item>Applying for a loan from Okash</item>
+        <item>Repaying Your Okash Loan</item>
+        <item>Maximum Borrowable Amount</item>
+        <item>How to grow your OKash loan limit</item>
+        <item>Other features of the OKash App</item>
+    </string-array>
+    <string name="okash_header">Downloads : 1,000,000+</string>
+    <string name="okash_footer">Minimum Amount : Ksh 2,500.0</string>
+    <string name="okash_about_1">OKash makes it easy for you to access credit anytime,
+anywhere. You can borrow KES2,500~50,000 from
+OKash and receive the cash via M-Pesa and the Loan
+Term: the shortest tenor is 91 days, the longest is 365
+days.It’s a fast, convenient and reliable way to access
+credit when you need it.</string>
+    <string name="okash_about_2">Registering on Okash loan app requires you first to
+download the application and then create an account.
+You should take note that only those who are between
+20 and 55 years of age are qualified for the loan.
+Below is the procedure for downloading the app.
+• Go to google play store
+• Type “Okash” in the search box
+• Once the app pops up, click the ‘Install’ button
+After installing the app, you will be required to create
+your account for you to access services on the app.
+Below is the procedure of creating a users account.
+• Open the app on your device
+• Click the sign-up button
+• Fill in your details (This includes your name, Mpesa
+number, referees legal name and mobile number, your
+employment and marital status as well as Date and
+year of birth)
+• Verify your phone number
+• Account is active
+Once your account is active, the app analyses your
+details to determine your loan limit. Your credit score
+will be determined by previous borrowing history.
+The loans given out by Okash have a maximum of Ksh
+500,000 and are given out within a short period after
+application. These loans attract a 5% interest and take
+a maximum of 14 days to be repaid.
+ .</string>
+    <string name="okash_about_3">• Open the Okash app on your device
+• Log in to your account
+• Check the Loan limit displayed
+• Choose the amount you want to borrow (This should
+be less or equal to your loan limit)
+• Choose the duration of the loan. (This should not be
+more than the maximum which is 14 days)
+• Apply
+The loan will be sent to the Mpesa number you
+registered with. You are required to repay the loan
+on time to avoid a negative credit report by the CRB.
+Also, regular borrowing and repaying increase your
+loan limit, which means you will have access to more
+massive amounts when borrowing from the app</string>
+    <string name="okash_about_4">Use the following procedure when repaying your loan:
+1. Open the Okash application on your device
+2. Log into your account
+3. Select the ‘Make a Repayment\’ option. This will
+redirect you to your Mpesa menu
+4. Select \‘Lipa na Mpesa.\’
+5. Select \‘Paybill\’ and enter the Okash\’s business
+number as 612224.
+6. Enter your phone number (the number you received
+the loan with) as the account number.
+7. Enter the amount you want to repay
+8. Enter your PIN and authorize the transaction by
+clicking \‘OK.\’
+9. You will receive a confirmation message from
+Mpesa, and your Okash account will be updated.</string>
+    <string name="okash_about_5">Currently during this pilot period the loan limit is KES
+1,500 -4,500 only. However once the loan app goes
+live it will be up to a maximum of KES 500K.
+Once the loan has been approved an origination fee
+is charged 14\%% for a term of 14 days and 16.8\%% for a
+term of 21 days.
+</string>
+    <string name="okash_about_6">OKash believes in making sure customers access
+funds that they can comfortably repay.
+As such, the app primarily relies on customer data to
+determine subsequent loans.
+Apart from your repayment habit, other factors may
+contribute to growth in your loan limit.
+For example, if your referee downloads the OKash app
+and services a loan successfully, you are likely to get
+a better loan limit.</string>
+    <string name="okash_about_7">a) Facial recognition
+In a bid to tighten security on the app and protect
+your personal information, OKash added a facial
+recognition feature.
+You will set up this feature by uploading a selfie and
+photos of the back and front of your ID. Note that you
+will not receive a loan via the app unless OKash can
+authenticate your identity.
+b) Referral code bonus
+When you share your OKash referral code with friends
+and family, you will earn a bonus.
+Therefore, the more people you invite to the app, the
+more you will receive.
+The most recent version of the app (1.1.9.14) has a
+new product that requires you to pay fees upfront.
+</string>
+
+    //Haraka
+    <string-array name="Attitude">
+        <item>What is Haraka Loan app?</item>
+        <item>How does Haraka Loans work?</item>
+        <item> Haraka loan App Data Use</item>
+        <item>Haraka Loan Product description</item>
+        <item>How to register on Haraka Mobile loan app</item>
+        <item>Haraka Loan Application Process</item>
+        <item>How to repay Haraka loan</item>
+        <item>Haraka loan interest calculation</item>
+        <item>What happens when you fail to pay on time?</item>
+        <item>Haraka Mobile loans contact details</item>
+    </string-array>
+    <string name="haraka_header">Downloads : 500,000+</string>
+    <string name="haraka_footer">Minimum Amount : Ksh 500.0</string>
+    <string name="haraka_about_1">Haraka loans are accessible through an Android ap‐
+plication readily downloadable through Google Play. It
+is the quickest and most convenient way to get a loan
+while you’re on the go! Haraka can offer you access to
+credit; anytime and anywhere on the comfort of your
+mobile phone. Offers clients nano-loans in real time,
+providing you with faster loans while you receive cash
+back rewards when using the app.Haraka loan app
+lends their clients between Ksh. 500 to Ksh. 5,000.</string>
+    <string name="haraka_about_2">In order for Haraka to facilitate quick and easy loans
+we make use of the data on your phone. Credit
+scoring, affordability and identity verification is
+determined by scanning your Mobile wallet SMS
+transaction messages, call logs, and other phone
+data.
+We take your privacy very seriously and never
+share your information with third parties without
+your explicit direct consent and permission, unless
+required by law.
+The below data is used to determine your behavior.
+- Contacts
+- Location
+- Apps installed on your phone
+- Device make, model, firmware and software
+versions
+The below data is used to determine client behavior,
+mobile wallet activity, affordability, and read mobile
+wallet transactions.
+- Mobile Wallet SMS transaction messages</string>
+    <string name="haraka_about_3">The Haraka Mobile Loans app uses data from your
+mobile phone to create a loan application for you.
+The data is used to determine your financial and
+non-financial behavior, transaction history, and
+identify financial fraudulent activity. The data is
+used to calculate a mobile wallet credit score, loan
+affordability and loan eligibility.
+</string>
+    <string name="haraka_about_4">• Loans range between Shs 500-5000, the app will
+let you know how much money you will be able to
+borrow.
+• The repayment period can be between
+7-30 • Once you
+choose the loan amount and the repayment period,
+the money will be sent to your phone via M-Pesa.
+• Loan limit grows steadily based on your
+responsiveness in clearing the outstanding debt.
+• Interest rate 23.45% p.m
+• APR 77%</string>
+    <string name="haraka_about_5">Step 1:After successfully installing the loan app you
+will link the loan app with your Facebook account.
+Step 2:After linking the app with your facebook
+account and successfully creating an account, fill in
+your personal details.
+The personal details required are your;
+• Name
+• ID Number
+• Email
+• M-Pesa Number (Referred to as Wallet Number)
+• Date of birth</string>
+    <string name="haraka_about_6">After downloading the application, opening an
+account, and providing your personal details, the app
+will inform you about your loan application limits.
+As such, you will learn how much money you can
+borrow based on your different factors such as credit
+performance.
+Now specify the loan amount and period of repayment
+in line with your limit.The repayment period varies
+between one to four weeks. The amount requested as
+the loan will be sent to your M-Pesa account almost
+immediately. Haraka will send you details on the
+amount of loan allocated, pay bill number, due date,
+reference numbers and other details useful during
+repayment.
+Haraka loan online application process is more
+straightforward and requires lesser details compared
+other conventional lenders.</string>
+    <string name="haraka_about_7">All Haraka loans are always repaid through
+M-PESA on your phone. You need to have the money
+in your M-PESA to be successful.
+Follow these steps to repay your Haraka Loan via
+M-PESA:
+1. Go to Mpesa menu on your phone
+2. On the menu, select ‘Lipa na Mpesa’ option
+3. Select Pay Bill
+4. Enter 817910 as the Pay Bill number
+5. Enter Account number (here enter your phone
+number)
+6. Enter Amount (Enter the amount of money you want
+to repay. it can either be the whole amount taken as
+the loan or just a part of it)
+7. Key in your Mpesa Pin
+8. Press Ok (to authorise the transaction)</string>
+    <string name="haraka_about_8">Haraka charges an interest rate of 23.45\%% per month
+for all the loans taken. For instance, if you borrowed
+Ksh. 500, then you will repay Ksh. 117.25 as interest
+after one month. The total amount payable will be
+Ksh. 617.25.
+To know the amount Haraka owes you multiply your
+principal with the number of days divided by 30.
+You should then multiply the result with 23.45\%%. For
+example, if you pay a loan of Ksh. 1000 after 10 days,
+the total amount payable plus the interest will be
+calculated as follows:
+Interest Accrued = 1000 (Principal) x 10/30 (Number
+of days in a month) x 23.45/100 (Interest rate) = 78.17
+shillings (2 decimal places)
+Total amount payable = Principal + Interest accrued =
+1000 + 78.17 = Ksh. 1078.17
+Where: Principal = The initial money borrowed.</string>
+    <string name="haraka_about_9">Continued failure to repay a loan will mean it will
+lead to legal action against you. In addition, the
+credit bureau will record the outstanding debt. This
+information may be supplied to other organizations to
+perform similar checks and to trace your whereabouts
+and recover debts that you owe. Records remain
+on file for a number of years after they are closed,
+whether settled by you or not.
+</string>
+    <string name="haraka_about_10">You can contact Haraka customer care through any of
+the following channels
+1. Social Media – You can reach the Haraka team in
+case you have any queries with your loan through
+their active
+Facebook page.
+2. Via email at kenyainfo@getbucks.com.
+3. On the landline phone via +254 (0) 202 434 019.
+4. Lastly, at any one of their branch offices
+countrywide.
+Tala is a mobile lending app thatThis is Kenya’.</string>
+
+
+    //AfrikaLoan
+    <string-array name="BreakUp">
+        <item>What is Afrikaloan Kenya Mobile App?</item>
+        <item>Why people choose Afrikaloan?</item>
+        <item>What are Afrikaloan loan terms?</item>
+        <item>How to register and Apply for a Loan from AfrikaLoan</item>
+        <item>How to Repay Afrikaloan</item>
+        <item>What are the lending terms?</item>
+        <item>Contacting Afrikaloan Kenya Mobile App</item>
+    </string-array>
+    <string name="afri_header">Downloads : 100,000+</string>
+    <string name="afri_footer">Minimum Amount : Ksh 500.0</string>
+    <string name="afri_about_1">Afrikaloan Kenya provides you with convenient and
+fast loans online, allowing you to get your money
+directly to your M-Pesa account. Chukua mkopo leo!
+The Afrikaloan Kenya mobile app enables you to
+receive financial support wherever you are, and at any
+time!
+A good credit history is the easiest way to ensure fast
+loans approval whenever you apply.
+Improving your credit history is easy – simply
+download the app, take out loans and pay back on
+time.
+</string>
+    <string name="afri_about_2">, • It\'s completely online. There\'s no need to go to an
+office to get a loan, simply install the app and fill in a
+short application form, whenever and wherever you
+are.
+• Fast processing. You can get an instant loan on your
+Mpesa, as soon as you require financial assistance.
+• Great terms. Low interest rates and flexible loan
+repayment terms. No hidden fees or charges.
+• Safe and secure. We encrypt all personal data to
+protect your privacy and we never share any data with
+third parties.
+• Customer support. Our dedicated customer support
+team is always ready to answer any question you may
+have on Facebook and via email.</string>
+    <string name="afri_about_3">, Afrikaloan offers loans from KSh 500 to KSh 50,000
+(maximum is USD 550 equivalent). Loan repayment
+terms are up to 52 weeks. It also means that clients
+can pay earlier than repayment due date. Annual
+interest ranges from 10\%% – 182.5\%% with an equivalent
+monthly interest of 0.8\%%-15.2\%%, depending on your
+loan option.
+There are no extra fees or commissions and no
+collateral necessary. Interest rates are determined by
+a number of factors, including your repayment history
+and the cost of lending for Afrikaloan. Standard SMS,
+payment system (M-Pesa) commission and data
+charges by your mobile carrier may apply.
+</string>
+    <string name="afri_about_4">, To get started, download AfrikaLoan from Google Play
+Store.
+Make sure your phone is an Android phone with
+version 4.1 and above. You will be required to fill in
+your personal information i.e Full names as registered
+on your national ID, email and your national ID number
+After that, you can now apply for a loan by specifying
+the amount you want to borrow. AfrikaLoan takes 5
+minutes to process your application. Your phone’s
+data history such as messages will be used to
+determine if you qualify for a loan. This includes
+messages sent to you various mobile money providers
+and any financial services providers.
+• Login the Afrikaloan App
+• Select Amount
+• Select repayment duration
+• Submit
+Approved loans are disbursed to your Mpesa account.</string>
+    <string name="afri_about_5">, • Go to Mpesa
+• Select Lipa na Mpesa
+• Select Paybill
+• Enter business number 697566
+• Account number is your phone number (starting with
+07..)
+• Enter amount of loan to repay
+• Enter Mpesa Pin
+• Confirm and submit.</string>
+    <string name="afri_about_6">, Afrikaloan offers loans ranging from KSh 500 to
+KSh 50,000 (up to a USD 550 equivalent). The
+loan repayment terms are up to 52 weeks and our
+customers can always pay their loans off in advance.
+Annual interest rates for regular clients range from
+10% to 182.5\%%, depending on your loan\'s terms.
+Interest rates are calculated depending on various
+factors, such as your repayment history and the cost
+of lending for Afrikaloan. There are no extra fees or
+charges and there is no collateral necessary. Standard
+SMS charges, payment system (M-Pesa) fees and
+your mobile carrier\'s data charges may apply.
+Here\'s how interest rates are calculated:
+For example, if we issue you a loan in the amount
+of KSh 2,000 for 7 days at a rate of 2.4\%% per day,
+including the day of issue. The total interest you pay
+for this loan will be KSh 384.</string>
+    <string name="afri_about_7">, They are always happy to answer any questions
+you may have, please find them on Facebook:
+facebook.com/afrikaloankenya
+Follow them on Twitter: twitter.com/afrikaloan
+Send them an email to info@afrikaloan.com
+Visit their website: afrikaloan.co.ke</string>
+
+
+    //Fuliza Mpesa
+    <string-array name="Birthday">
+        <item>What is Fuliza M-PESA?</item>
+        <item>How Fuliza works</item>
+        <item> Where does Fuliza Apply?</item>
+        <item>How do you repay Fuliza?</item>
+        <item>Fuliza Charges</item>
+        <item>Fuliza Limits</item>
+        <item>Are there any Penalties for late repayment?</item>
+        <item> How many accounts can I hold for Fuliza M-PESA services?</item>
+    </string-array>
+    <string name="fuliza_header">Downloads : 1,000,000+</string>
+    <string name="fuliza_footer">Minimum Amount : Ksh 1.00</string>
+    <string name="fuliza_about_1">Fuliza loans or Fuliza M-Pesa is an overdraft facility
+for all M-Pesa users. The facility allows you to
+complete your M-Pesa transactions even when you
+have insufficient funds in your account. In essence,
+Fuliza M-Pesa is like a bank overdraft. It is a product
+of CBA Bank, that is offered through Safaricom’s
+M-Pesa. Note that although people call it Fuliza loans,
+it is not a loan. According to Safaricom, Fuliza is a
+continuous overdraft service.
+That means if you want to buy items and you have
+insufficient funds in your M-Pesa account, Safaricom
+will fund the difference. Now, as soon as you deposit
+some money into your account, the company will
+deduct their amount plus a small facility fee or
+interest. The amount of money you can have through
+Fuliza will depend on your set Fuliza overdraft limit.
+</string>
+    <string name="fuliza_about_2">Fuliza is not enabled to every account by default
+and this is a good thing as it will prevent you from
+accidentally using the service if you did not intend to
+do so in the first place.
+To opt-in, just dial *234# and choose Fuliza
+M-PESA. You will be presented with Fuliza Terms and
+Conditions which you will have to agree to.
+To check your Fuliza limit, balance or even to opt out,
+you can dial *234# and follow the screen prompts.</string>
+    <string name="fuliza_about_3">Fuliza overdraft only comes in to help you when you
+don’t have sufficient funds in your M-PESA account
+to complete a transaction. And this is in a couple of
+ways:
+1. Lipa na M-Pesa to Pay Bills e.g. Kenya Power,
+Water Bills, etc.
+2. Lipa na M-Pesa to Till Numbers e.g. Supermarkets,
+Transport, etc.
+3. Sending Money
+</string>
+    <string name="fuliza_about_4">Repaying the amount awarded to you is easy, just
+deposit money to your M-PESA account and it will be
+deducted from that.
+If you have used M-Shwari, then you know this is the
+opposite of that. For M-Shwari, you have to choose
+to pay the loan unlike with Fuliza where the amount is
+deducted automatically just like Okoa Jahazi.
+</string>
+    <string name="fuliza_about_5">There are charges that Fuliza attracts that you should
+know about before getting started.
+There is an access fee of 1 per cent and a
+maintenance fee.
+You will be charged between Ksh2- Ksh30 per day
+each day the account is overdrawn.
+So if you have a Fuliza Overdraft of Ksh200, you’ll be
+charged Ksh2 one-off fee, plus Ksh5 daily until you
+repay.
+Below are the charges to expect when using Fuliza:
+Amount Tariff
+0 -100 One-time fee of Ksh 2
+101-500 Ksh 5 per day
+501-1000 Ksh 10 per day
+1001-1500 Ksh 20 per day
+1501-2500 Ksh 25 per day
+2501-70000 Ksh 30 per day
+</string>
+    <string name="fuliza_about_6">The limit is the maximum amount you can get and
+should be repaid in 30 days.
+The amount you are eligible to get depends on
+your account and will be reviewed every 3 months
+depending on how you use the app.
+To grow your Fuliza limit, Safaricom states that you
+should continue using Safaricom and M-PESA
+services frequently and repay Fuliza M-PESA on time
+by topping up your M-PESA account.
+You can use Fuliza as many times as you need as long
+as you are within the allocated Fuliza M-PESA limit.</string>
+    <string name="fuliza_about_7">You will not have access to your Fuliza M-PESA limit
+if you have any unpaid balance after day 30. This will
+however be restored on full repayment of your Fuliza
+balance.
+</string>
+    <string name="fuliza_about_8">Every M-PESA registered line will be treated as a
+different account. Each mobile number will qualify
+for Fuliza M-PESA and will be awarded a limit. This
+limit will be reviewed every 3 months depending on
+your usage.
+</string>
+    //Fadhili
+    <string-array name="Relationship">
+        <item>What is Fadhili Mobile Loan App</item>
+        <item>Fadhili Loan Registration</item>
+        <item>Fadhili loan requirements</item>
+        <item>Fadhili Loan offers</item>
+        <item>How to get a loan from Fadhili</item>
+        <item>How to Repay Fadhili Loan</item>
+        <item>How to Contact Fadhili Mobile</item>
+    </string-array>
+    <string name="fadh_header">Downloads : 100,000+</string>
+    <string name="fadh_footer">Minimum Amount : Ksh 500.0</string>
+    <string name="fadh_about_1">Fadhili gives you access to fast &amp; convenient loans to
+your M-Pesa. Use our loans to grow your business,
+pay your bills or deal with emergencies.
+Install Fadhili loan app from google play and create
+account and begin applying.
+Fadhili will check how you have been using your
+phone to make calls, sms, data and how you use
+mobile money services such as M-Pesa. Fadhili will
+notify you of the amount of money you can apply for
+and explain the repayment terms.
+</string>
+    <string name="fadh_about_2">Now that you have the loan app on your mobile phone
+let’s go ahead and register.
+• Open the Fadhili loan app
+• You will be presented and shown with a screen that
+has the Fadhili logo and a blue button
+• Click on the button to move forward.
+• You will then be presented with a form on the next
+shown screen.
+• Fill the form which contains user data
+• Checkmark the next box to accept terms and
+conditions. (If you need, please read the terms and
+conditions.</string>
+    <string name="fadh_about_3">• Your Surname
+• Your First Name
+• Middle Name
+• Your National ID
+• Date of birth
+• Your Gender
+• M-Pesa phone number
+• Email address.
+The next available screen will request you to pay a
+Yearly Subscription fee of kes350.
+</string>
+    <string name="fadh_about_4">1. Loan Amount: Ksh 300 ~ 300,000 Ksh
+2. Loan Term: The shortest tenor is 91 days, the
+longest is 365 days
+3. Fees: 12\%%
+4. APR: 12\%%
+Service Fee: We charge additional service fee to cover
+the cost of credit scoring,payment cost, and account
+management. The amount varies for loan amount
+requested
+Example: If the loan amount is Ksh 20,0000 for one
+year loan term with the total fees of 12\%%, then the APR
+will be Ksh 2,400 which is also the loan fee.</string>
+    <string name="fadh_about_5">If you decide to go ahead and get the loan from Fadhili
+App, here are the steps you need to take:
+1. Continue with the account creation process to get
+started.
+2. Go ahead with the loan application process. Fadhili
+Loan App will take into account the answers you
+provide in the questionnaire, how you use your phone
+and M-Pesa history. This will help them determine if
+you qualify for a loan or not.
+3. If you qualify and go ahead to request the loan, they
+will disburse the loan to your M-Pesa account.
+4. To grow your loan limit, you need to repay the
+previous loan in time.
+5. One thing to note is that they will require a referee.
+</string>
+    <string name="fadh_about_6">You can repay Fadhili loan using M-Pesa through the
+following steps:
+1. Open your M-pesa menu on phone.
+2. Navigate to Lipa na Mpesa
+3. Select Pay Bill and enter the following Business
+Number
+995321
+4. Enter your phone number for the account number
+5. Next, enter the loan amount you wish to pay. You
+can make partial or full payments.
+6. Submit and you should receive a message
+</string>
+    <string name="fadh_about_7">You can use the following methods if you need to
+contact Fadhili Mobile
+• Use the mobile app directly
+• Via phone Number: +254720686009
+• Or email using admin@Fadhili.co.ke
+• Alternatively, you can visit their website: http://
+fadhilimobile.co.ke</string>
+    //Idooh
+
+    <string-array name="Anniversary">
+        <item>What is IDOOH mobile loan app?</item>
+        <item>How to use IDOOH Mobile App</item>
+        <item>Idooh Mobile Rates and Fee</item>
+        <item>How\'s Interest Rate Calculated.</item>
+        <item>Contacting Idooh Mobile Support</item>
+    </string-array>
+    <string name="idooh_header">Downloads : 1,000,000+</string>
+    <string name="idooh_footer">Minimum Amount : Ksh 100.0</string>
+    <string name="idooh_about_1">Tala is a mobile lending app that provides access to credit to people living in Kenya, Mexico, Tanzania, Philippines, and India.
+        The app was formerly known as Mkopo Rahisi, and it belongs to a California-based finance company in Kenya that offers instant unsecured mobile loans to Kenyans. The company was formerly known as Inventure, and as things stand, This is Kenya’s number one microfinance App.</string>
+
+    //Ipesa
+
+    <string-array name="Busy">
+        <item>What is iPesa - Credit Loans</item>
+        <item>iPesa Eligibility criteria</item>
+        <item>Applying a loan with iPesa</item>
+        <item>iPesa - Easy and Fast Credit loan offers</item>
+        <item>How to repay iPesa loan via M-PESA paybill</item>
+        <item>What interest rate does iPesa charge?</item>
+        <item>What will happen if I pay my loan late?</item>
+        <item>iPesa loan app Contacts</item>
+    </string-array>
+    <string name="ipesa_header">Downloads : 100,000+</string>
+    <string name="ipesa_footer">Minimum Amount : Ksh 500.0</string>
+    <string name="ipesa_about_1">iPesa is a mobile lending app that makes it easy for
+people in Kenya to access a loan, anytime, anywhere.
+One has to Complete application in seconds and
+receive loan straight into M-PESA account. iPesa is
+like a bank in your pocket, there for you at all times.
+Currently ipesa can lend loan sizes range from Ksh
+2000 to Ksh 10,000. If one repays loan as scheduled,
+the amount that you can borrow will increase.
+</string>
+    <string name="ipesa_about_2">Requirements are simple
+• Safaricom phone number,
+• National ID and
+• Answering few questions.
+• Access to the data on your phone.</string>
+    <string name="ipesa_about_3">To apply for a loan, you just need to follow several
+easy steps:
+1. Register with your M-Pesa number
+2. Apply for the exact loan amount you need
+3. Get approved and receive the money in minutes
+4. Repay on time to get a credit limit of 50,000 Ksh</string>
+    <string name="ipesa_about_4">1. Loan Amount: 500 Ksh ~ 50,000 Ksh
+2. Loan Term: the shortest tenor is 91 days, the
+longest is 180 days
+3. Interest rate: 12\%% APR
+4. Service Fee: 0\%%
+5. Loan request: Need to be at least 18 years old or
+above
+**Example: If the loan amount is 500 Ksh, the loan
+term is 180days, and the Interest rate is 12\%%, the total
+Interest should be 500 Ksh * 12\%% = 60 Ksh.
+</string>
+    <string name="ipesa_about_5">iPesa paybill number is 192010. To make a repayment
+with M-PESA, follow these steps:
+1. Navigate to MPesa in your Safaricom menu on your
+phone
+2. Select Lipa na M-PESA
+3. Choose the Paybill option
+4. Enter the Paybill number 192010
+5. For account number, enter your MPesa number on
+which you received your iPesa loan
+6. Enter your repayment amount
+7. Enter your M-PESA pin
+8. Confirm that all details are correct and press “OK”.</string>
+    <string name="ipesa_about_6">Interest rates are determined by a number of factors,
+including your repayment history with iPesa and the
+cost of lending for us. Depending on these factors, the
+origination fee is charged 15\%% for a term of 14 days.
+Borrowers are required to cover any mobile money
+transaction fees, such as M-PESA charges,
+associated with repaying the loan. Standard SMS and
+data charges by your mobile carrier may apply.</string>
+    <string name="ipesa_about_7">Late loan repayments automatically incur a fee of
+2% per day. It is therefore advised that one does not
+exceed the due date.
+Repay the loan by its due date allows you to access
+larger loan sizes. Late repayments will affect your
+ability to get subsequent or larger loans.
+If you are very late on your payments, we report to
+the Credit Reference Bureau (CRB). Blacklisting by
+the CRB may affect your ability to borrow from other
+lenders.
+</string>
+    <string name="ipesa_about_8">In case of any question one can contact iPesa through
+05488888888 or email them through help@ipesa.com
+</string>
+
+    //MKey
+    <string-array name="Friendship">
+        <item>What is mKey Loan app</item>
+        <item>Getting Started with mKey app</item>
+        <item>Value of loans one can access</item>
+        <item>How to apply for mKey Loan</item>
+        <item>mKey loan Interest rates</item>
+        <item>What you Can do with mKey App?</item>
+        <item>How to Repay mKey loans via Mpesa</item>
+        <item>How to build your profile</item>
+        <item>Who qualifies for Mkey Loans</item>
+        <item>How to Withdraw from mKey account</item>
+    </string-array>
+    <string name="mkey_header">Downloads : 1,000,000+</string>
+    <string name="mkey_footer">Minimum Amount : Ksh 100.0</string>
+    <string name="mkey_about_1">Tala is a mobile lending app that provides access to credit to people living in Kenya, Mexico, Tanzania, Philippines, and India.
+        The app was formerly known as Mkopo Rahisi, and it belongs to a California-based finance company in Kenya that offers instant unsecured mobile loans to Kenyans. The company was formerly known as Inventure, and as things stand, This is Kenya’s number one microfinance App.</string>
+
+
+    //Okolea
+    <string-array name="Heart_Break">
+        <item>What is Okolea loan app?</item>
+        <item>How Okolea loan app works.</item>
+        <item>Registration on the Okolea Loan app</item>
+        <item>How to apply for Okolea loan</item>
+        <item>The interest rates of Okolea are as follows:</item>
+        <item>Okolea Loan Limit</item>
+        <item>How to Repay Your Okolea Loan</item>
+        <item>How Long does Okoloea take to approve a loan</item>
+        <item>Okolea loan customer care</item>
+    </string-array>
+    <string name="okolea_header">Downloads : 1000,000+</string>
+    <string name="okolea_footer">Minimum Amount : Ksh 500.0</string>
+    <string name="okolea_about_1">The Okolea loan app is a digital lending platform
+from the Okolea International financial institution
+that aims to be the top fin-tech company that allows
+for innovative, disruptive, and revolutionary financial
+help. The tech company based in Kenya uses its vast
+resources, including this app to provide positive and
+economical solutions to its customers.
+The company has a broad client base with over
+150,000 customers, and over 200\%% client registration
+daily.
+They offer a range of financial services, including
+digital payments, loan disbursements, digital
+unsecured loans, digital transfer, big data solutions,
+and accounting software services.
+</string>
+    <string name="okolea_about_2">Okolea loan app requires Android version 4.4 &amp; above
+to work efficiently. And like most loan apps in the
+market, Okolea works by collecting data from your
+phone.
+This data is used to determine your character, CRB
+status, and your loan limit. The app scans your phone
+and collects for the following information from your
+device.
+Currently, the app relies heavily on your credit score
+to determine your loan eligibility and loan limit.
+1. Your GPS location.
+2. Mpesa transaction messages.
+3. Apps installed on your phone.
+4. You contact details and call logs.
+5. Phone make and type.
+6. Credit top up and lastly, how you interact with your
+phone.
+</string>
+    <string name="okolea_about_3">You will need to create an account after downloading
+the okolea loan apk.
+To do this:
+1. Click Open (to launch the app).
+2. Select next.
+3. Again (Accept all the requestedpermissions).
+4. Click Next.
+5. Now tap on sign up.
+6. Enter your registered Safaricom mobile number.
+7. Select next again
+8. Enter first and last name,
+You type your details next- National ID
+number your email address, and then choose
+9. date of birth ,Proceed to type your exact ),
+county, gender, occupation (ignore the reference
+code(employed or self-employed).
+10. Select next.
+11. Type a good password &amp; confirm it (must be at
+least 6 characters).
+12. That’s all. You have successfully registered to be a
+member okolea international app.</string>
+    <string name="okolea_about_4">After registration, Okolea International appraises your
+account to determine the loan amount you qualify
+for at the start. The app will display your loan limit.
+You can borrow any amounts lower or equal to your
+loan limit. Okolea International is open to lending any
+individual provided you
+• Give truthful information in your profile
+• Allow the app to access your M-Pesa
+• Allow the organization to access your CRB report
+• Also, note that the Okolea loans are approved
+instantly.
+Okolea International promises to send your loan in
+less than one hour after approval if you apply for it
+between 7 am and 7 pm. Typically, it takes less than a
+minute after approval to receive your loan. But, if you
+request for a loan at night, you will have to wait until
+the next morning.
+</string>
+    <string name="okolea_about_5">The Okolea loan app interest rate is 5-15%. It lies
+within the usual range among quick mobile loan apps.
+The variation in the interest rate depends on the
+repayment period. Here’s a table to guide you on the
+interest rates and charges for the Okolea mobile loan
+app in Kenya.
+• 5\%% for loan repayment of one and two days
+• 8\%% for repayment within seven days
+• 11\%% for loan repayments within 14 days
+• 13\%% for repayments within 21 days and
+• 15\%% for loan repayments within 30 days
+</string>
+    <string name="okolea_about_6">The loan limit, as explained above, is a significant
+determinant on the amount that can be borrowed by
+an individual. The Okolea loan limit varies from cus‐
+tomer to customer depending on underlying factors,
+including your repayment history and credit score.
+Despite that, your loan limit can grow every time
+you borrow and repay a loan. If a loan is paid within
+the stipulated time, your loan limit increases 20%
+applicable every time you borrow a loan.
+</string>
+    <string name="okolea_about_7">You can repay the loan using the loan app itself or
+by using your Mpesa. If you want to repay using your
+Okolea loan app, login into the app and select ‘Repay
+Button’ then proceed. However, if you want to use
+Mpesa, proceed as follows:
+1. Go to your Mpesa menu
+2. Select ‘Lipa na Mpesa.’
+3. Select ‘Paybill’ and enter Okolea’s pay bill number
+as 245316
+4. Enter your mobile number as the account number
+5. Enter the amount you want to pay
+6. Key in your Mpesa PIN, press OK and wait for a
+confirmation message.
+7. Mpesa will send you a confirmation text, and the
+application will update your account.</string>
+    <string name="okolea_about_8">Loans are approved instantly and it takes a maximum
+of one hour between 7 am and 7 pm every day to send
+the loan to your phone. Loans applied at night are
+disbursed in the next morning. People who fail to pay
+their loans on time have their details forwarded to
+debt collectors and the Credit Reference Bureaus.
+</string>
+    <string name="okolea_about_9">In case of any questions about your loan, you can
+contact customer care using the following Okolea
+loan contacts.
+• Mobile numbers: call 0720178775 or 0748679076
+• Email address: Support@okolea-international.com
+• Facebook: @OkoleaInternational
+• Twitter handle: @okoleaint
+• YouTube: Okolea International
+• Instagram: @okolea_int
+You can likewise visit their Nairobi Regional Office,
+which is found at the Mezzanine floor Posta building,
+Ronald Ngala Street, Nairobi. Their other branch is at
+the Kiambu Regional Office, Henmar Court, on the1st
+floor, Room number 9.
+</string>
+
+    //Senti
+    <string-array name="Beautiful">
+        <item>What is Senti Loan?</item>
+        <item>How to Register for senti Loan</item>
+        <item>What are the Senti Loan Limits</item>
+        <item>How does SENTI make a lending decision?</item>
+        <item>Why is a loan declined?</item>
+        <item>What is the Senti Loan qualifications</item>
+        <item>What are Senti Friendly Loan terms?</item>
+        <item>How do you repay Senti loans?</item>
+
+    </string-array>
+
+    <string name="senti_header">Downloads : 100,000+</string>
+    <string name="senti_footer">Minimum Amount : Ksh 1500.0</string>
+    <string name="senti_about_1">SENTI Kenya is a microfinance mobile app that makes
+it accessible for people in Kenya to obtain a simple
+loan, anytime, anywhere within the country. Complete
+the senti loan application process in just a matter of
+seconds and then receive your credit straight into
+your mobile money account like Mpesa.
+SENTI is more like a little bank in your pocket, and
+they are always there for you whenever you need
+something to touch in your pockets.
+</string>
+    <string name="senti_about_2">To begin with, for you to register, you must download
+the official senti loan App from the Google play store.
+It is simple, just click on google play app, search
+for senti loan then click Install button.
+Once you have downloaded and installed the app,
+you\’ll be asked to select the email address that will
+be used and then from there on just follow some few
+steps until you set your unique password(don’t share
+your password with anyone).
+</string>
+    <string name="senti_about_3">The minimum amount of money that you can borrow
+is Ks1500, which is in the category of Bronze, and the
+maximum amount is then dependent on your credit
+score. Credit limit or score is the maximum amount of
+credit/loan you qualify to obtain calculated based on
+how much money you borrow through your account
+and how long you repay.
+Here are the limits for senti loan
+• Bronze: In this category, you can borrow from
+Ksh1500 to Ksh4900. It is the first category for
+new users.
+• Silver: Silver members can borrow from Ksh5000
+to Ksh9900, your credit score should be positive to
+qualify.
+• Gold: In this category, you qualify for a loan limit
+between Ksh10,000 and Ksh 14,900. It is ideal for
+small businesses.
+• Platinum: This is the highest loan limit in senti.
+You can borrow anywhere between Ksh15,000
+to Ksh20,000 provided you have a positive credit
+score.
+</string>
+    <string name="senti_about_4">SENTI uses data from your phone, including your
+handset details and financial transaction messages
+to make lending decisions. This combined with your
+SENTI repayment history builds an individualized
+credit score, which determines the loan offers you
+receive.</string>
+    <string name="senti_about_5">A SENTI Loan will be declined if;
+• You borrow above your credit limit,
+• You have an existing loan with SENTI
+• You are currently or previously been listed with
+Credit Reference Bureau for a defaulted loan with any
+institution.
+• You currently don’t meet the full requirements
+• SENTI has the right to decline a loan at its own
+discretion</string>
+    <string name="senti_about_6">• You have to be an active Safaricom Mpesa
+subscriber for at least 6 consecutive months
+• Must have a good credit history as per the
+predefined loaning criteria, and you must borrow
+within the displayed limit on the senti application.
+• You must not be on CRB record
+• You should have a positive credit score
+</string>
+    <string name="senti_about_7">• 14-day and 30-day loan options let you choose
+what\’s right for you
+• 14-day loan payment terms have a one-time fee of
+10-1\%%%*
+• 30-day loan payment terms have a one-time fee of
+15\%%*
+• Grow with Senti and build your limit up to KSh 40,000
+by making your re-payments in good time.</string>
+    <string name="senti_about_8">Tis Kenya\’s number one microfinance App.</string>
+
+    //Pezesha
+    <string-array name="Faith">
+        <item>What is Pezesha?</item>
+        <item>An example of Pezesha works</item>
+        <item>Who owns Pezesha?</item>
+        <item>What is the process of borrowing a loan from Pezesha?</item>
+        <item>Any other charges/fees attached to my loan?</item>
+        <item>How do I make loan repayments?</item>
+        <item>When I repay my first loan on time, how do I get another loan?</item>
+        <item>What happens if I never repay my Pezesha loan?</item>
+        <item>What are the penalties for late payments?</item>
+
+    </string-array>
+    <string name="pesha_header">Downloads : 50,000+</string>
+    <string name="pesha_footer">Minimum Amount : Ksh 500.0</string>
+    <string name="prsha_about_1">Pezesha’s name comes from the two
+acronyms Pesa and Wezesha to mean Financial
+Empowerment in Swahili. We are all
+about Kenyans empowering other fellow Kenyans.
+We connect lenders to borrowers and facilitate loans
+on a?ordable and fair terms.
+</string>
+    <string name="prsha_about_2"> Mary needs Ksh. 5,000 ($50) to buy weekly stock for
+her small kiosk in a low income neighbourhood in
+Nairobi. She does not have the cash available to buy
+her products and therefore has to temporarily close,
+despite knowing she would have Ksh. 10,000 in a
+month’s time from her revenues.
+Through our mobile platform, Mary requests a loan
+from Pezesha, who conduct an automated credit
+score in 30 seconds through robust verified data
+sources, and then sources the amount from Kenyans
+with idle/spare capital.
+Mary can then grow her business, and improve her
+credit rating, paying back with mobile money.
+</string>
+    <string name="prsha_about_3"> Pezesha is owned and run by a mix of
+African investors (as the majority investors)
+and international investors (as the minority
+investors) who have 10+ years of experience in
+the credit and business sector. The Pezesha Team is
+made up of local individuals and local lenders whose
+aim is to empower other fellow Kenyans,
+ensuring equal opportunities and financial inclusion
+for all Kenyans.
+</string>
+    <string name="prsha_about_4">• Register and apply for a loan either via
+SMS or our app.
+• borrower application Pezesha assesses
+in real time using and credit scores self-reported
+data borrower\’s transaction data
+,and credit bureau data.
+• borrower\’s application Pezesha declines
+or approves.</string>
+    <string name="prsha_about_5"> • Service charge fees:varying from Kshs. 50 to Kshs.
+150, depending upon the loan size you take. This
+includes the loan processing and standard M-PESA
+charges for sending money.
+• Facilitation fees: varying in value depending on the
+loan size you take. For example, for a Kshs. 5,000 loan
+the fee is 8\%% and for a Kshs. 500 loan the fee is 10\%%.
+• Penalty fees: will only result if you are late in your
+loan repayment.</string>
+    <string name="prsha_about_6"> All your loan repayments are done
+through M-PESA by following the instructions below:
+• Go to sim toolkit
+• Go to your M-PESA Menu and scroll down to “Lipa
+Na M-PESA”.
+• Select “PayBill”.
+• Select “Business Number” and enter
+898927.
+• Select “Account Number” and enter your
+that you used to register on Pezesha.
+ID Number
+• Enter the amount you want to repay.
+• Enter your M-PESA PIN and send.
+• to alert you that you have successfully paid to
+Pezesha Africa Limited.
+You will then get an SMS notification
+Sim toolkit ---> M-PESA ---> Lipa na M-PESA ---
+> Paybill ---> Business No. (898927) ----> Account
+No.(Enter your ID Number) ---> Amount ---> Your
+Pin No ---> Send.</string>
+    <string name="prsha_about_7">You qualify for a repeat (second) loan once you
+have fully cleared your first loan repayments on time.
+You will also earn points that will qualify you for larger
+loans as well as improved credit scoring that will
+attract more lenders to fund your loan faster on the
+marketplace.
+On how to apply for a second loan. It\'s an easy and
+straightforward process that will take you less
+than 5 minutes. Please contact us through our
+Email: help@pezesha.com
+We will give you SMS instructions
+and we will follow up with you for more details.</string>
+    <string name="prsha_about_8">If you completely default - that is if you never
+repay - we will report and blacklist you on Credit
+Reference Bureau (CRB). This will means your
+opportunity to get a loan elsewhere (including
+with M-Shwari), will be very difficult. We will also
+report you to external debt collectors who may come
+to your location to claim an equivalent asset (s)
+to cover and pay for your loan. You will not be able to
+borrow from Pezesha again.
+</string>
+    <string name="prsha_about_9"> Penalties vary depending on the size of loan, and the
+degree of lateness of the payment.
+Larger loans and later payments result
+in larger penalties. For example:
+A Ksh 1,000 loan that is paid 5 days late will result in a
+penalty charge of Ksh 125.
+A Ksh 10,000 loan this paid 40 days late will result in a
+penalty charge of Ksh 750.
+</string>
+
+
+    //Pesaflash
+
+    <string-array name="Hott">
+        <item>What is PesaFlash loan app?</item>
+        <item>How simple is the process?</item>
+        <item>How do I repay my loan?</item>
+        <item>Late loan repayments</item>
+        <item>How Decision making is made for loan to be granted?</item>
+        <item>PesaFlash loan rates and fees</item>
+        <item>Safety and security</item>
+        <item>PesaFlash contact details</item>
+    </string-array>
+
+    <string name="flash_header">Downloads : 100,000+</string>
+    <string name="flash_footer">Minimum Amount : Ksh 2,000.00</string>
+    <string name="flash_about_1"> PesaFlash makes it easy for you to access loans for
+the way you live anytime. Sign up in seconds, apply
+for a loan and receive your money straight to your
+account. It\’s a fast, convenient and reliable way to
+access credit when you need it.
+.</string>
+    <string name="flash_about_2"> • Download the PesaFlash APP and register for an
+account using your M-Pesa number.
+• Secure your identity in 3 simple steps through the
+app. No paperwork.
+• Verify your identity through our secure system in
+minutes.
+• Get cash sent directly to your M-Pesa in an instant.
+• Repay on time to get a credit limit up to KSh 50,000.</string>
+    <string name="flash_about_3"> To repay PashFlash loan follow the steps below .
+1. Navigate to M-PESA in your Safaricom menu on
+your phone\n
+2. Select Lipa na M-PESA\n
+3. Choose Paybill\n
+4. Enter Paybill number 623333\n
+5. For account number, enter your M-PESA number
+on which you received your PesaFlash loan\n
+6. Enter your repayment amount\n
+7. Entery your M-PESA pin\n
+8. Confirm that all details are correct and press \‘OK\’.
+</string>
+    <string name="flash_about_4"> Late loan repayments automatically incur a late fee
+of 2\%% per day. It is therefore advised that one does
+not exceed the repayment period. Further, this could
+reduce your future borrowing score.More than 30
+days after the due date, We will report the overdue
+records to the credit bureau.
+</string>
+    <string name="flash_about_5">PesaFlash verifies your identity and assesses your
+credits by collecting your full legal name, national
+ID, M-Pesa number (Submitted Information) and the
+data from your mobile phone including your address
+list, GPS and other information (Device Information).
+Pesaflash needs your explicit permissions during
+registration to access those data. No loan can be
+disbursed if the data is missing.</string>
+    <string name="flash_about_6"> The Quick Loan App offer:
+• Loan Amount: KSh 2000 - KSh 50,000
+• Loan Term: the shortest tenor is 90 days,longest is
+365 days
+• Interest rate: 16\%% APR
+• Service Fee: 0</string>
+    <string name="flash_about_7"> PesaFlash verifies your identity and assesses your
+credits by collecting your full legal name, national
+ID, M-Pesa number (Submitted Information) and the
+data from your mobile phone including your address
+list, GPS and other information (Device Information).
+We need your explicit permissions during registration
+to access those data. No loan can be disbursed if the
+data is missing. Note that we take your privacy seri‐
+ously. All your data is well encrypted and secured. We
+promise that we never share or sell your information
+with third parties without your permission.
+</string>
+    <string name="flash_about_8"> They are always excited to hear from you! If you
+have any feedback, questions, or concerns, please
+call them by 0207651588 or e-mail them at
+support@pesaflash.co.ke !
+Message them on WhatsApp : +254 768 028 057
+Follow them on Instagram : instagram.com/
+pesaflash.ksh
+Like them on Facebook : facebook.com/
+pesaflash.ksh
+Visit their website : pesaflash.co.ke</string>
+
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">CRB Info</string>
+    <string name="menu_slideshow">CRB Providers</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Enquiries Form</string>
+    <string name="menu_send">About Us</string>
+    <string name="menu1_send">Share</string>
+    <string name="menu2_send">Rate Us</string>
+    <string name="send_text">Submit Message</string>
+    <string name="crb_prov">CRB Providers</string>
+    <string name="crb_info">About CRB</string>
+    <string name="crb_form">CRB Inquiries Form</string>
+    <string name="more_about">CRB Inquiries Form</string>
+    <string name="crb_prov1">TRANSUNION</string>
+    <string name="crb_prov2">METROPOL</string>
+    <string name="crb_prov3">CREDITINFO</string>
+    <string name="crb_detaik"><b>CRB (Credit Reference Bureau)</b> is a company that collects data on loans issued by lending institutions, and consequently creates reports (known as credit reports) on a borrowers current and past loans. With this information, a CRB is able to draw out the repayment patterns of each borrower. Lenders will obtain your credit report and use this repayment information to determine if they will issue you with a loan.
+In Kenya, we have three CRBs; all licensed for operation and regulated by the Central Bank of Kenya:</string>
+    <string name="crbb_prov1"><b>How to Check CRB status via Mobile App</b>\n\n
+1. Download TransUnion Nipashe app from Google
+Play store (For Android Users)\n
+2. Enter your ID number, Mobile Phone Number and
+names\n
+3. Check Status\n
+4. If GOOD! Message appears as shown in image the
+below then you are fine\n\n
+NOTE: This process is absolutely free. If you need any
+further information than that then you need to pay kes
+650. Getting a clearance certificate with Transunion
+will cost you Ksh. 2200.\n
+Checking CRB status via SMSn\
+1. Send your names to 21272n\
+2. Then, Enter your National ID number\n
+3. Choose CC (meaning Credit Status)\n
+4. You will then Receive your CRB status. Good will
+mean you are not while default will mean you are
+blacklisted\n\n
+Contacts\n
+• Office Location: Prosperity House, Westlands Rd, Off
+Museum Hill in Westlands, Nairobi.
+Mobile Phone Number: +254 20 3751799 or
+0730651000\n
+• Email: info@transunion.com\n
+• Official website:\n
+http:/www.transunionnipashe.co.ke</string>
+    <string name="crbb_prov2">You can access CRB services from Metropol through\n
+Metropol website,\nmetropol crystobol app or by\n
+dialling*433#.\n
+If you have chosen to register with metropol,then
+check out these steps;\n\n
+Register With Metropol\n
+• You will Pay kes 50 as registration fees through the
+Paybill number 220388.Enter your ID number as the
+account number.\n
+• You\'ll get an SMS with your unique PIN details,a
+Reference Number and a special Link/li>
+Access Metropol CRB services\n
+After paying the registration fees ,now you\'re allowed
+to check your CRB status.\n
+• You can choose to dial *433# and enter PIN and
+you\'ll get your listing status through an SMS.\n
+• You can choose to use the metropol Crystobol
+app.Login and view you CRB status.\n
+• You can visit metropol website ,Login and view your
+listing status.\n
+There are other services which you can also get from
+Metropol.Note that after payment of the required fees,
+you\'ll follow the same steps as checking your CRB
+status above.Pay all the fees the same way you paid
+for registration.\n
+You can visit metropol website ,Login and view your
+listing status.\n
+Metropol CRB\n
+• Credit Score-Pay kes150.You are entitled to one
+free credit report in a year.Pa only to get more than
+one report in a year. Metropol gives a score between
+200 and 900.Any score below 400 will mean you\'re a
+defaulter and lender can\'t give you loans.Any score
+above 400 will mean fair and lenders will give you
+loans with a lot of caution.Good credit score is any
+score near 900 and lenders will give you cheap loans.\n
+• Credit Report- Pay kes250.This is a detailed report
+on how you interact with financial institutions.\n
+• Who listed you- Pay kes 50 to know who sent your
+name to the CRB.\n
+• Clearance Certificate- Pay kes2200.After clearing
+all your defaulted loans, you\'ll be issued with a
+clearance certificate
+Contacts\n
+• Office Location: 9th Floor, Barclays Plaza, Loita
+street, Nairobi (Metropol Credit Reference Bureau
+Limited)\n
+• Phone Number: +254709834000\n
+• Official website: http://metropol.co.ke/</string>
+    <string name="crbb_prov3">How to check your CRB status\n\n
+CreditInfo entirely works on the information they
+receive through emails. but first you will be required
+to fill;\n
+• Online credit request form to obtain your certificate
+of clearance\n
+• And if you feel that your Credit Report Contains
+incorrect information you will be asked to fill Credit
+report Dispute form.\n
+Creditinfo Kenya\’s core business is information
+related to credit, offering services to cover each stage
+of the customer life cycle.
+Contacts\n
+• Call:+254 20 375 7272\n
+• Physical address: Spark Suite, Parklands road\n
+• E-mail: info@creditinfo.co.ke\n
+• Email2:consumercare@creditinfo.co.ke\n
+• Date licensed: 29th April 2015\n
+• Website: https://ke.creditinfo.com/</string>
+    <string name="mor_about">The benefits of Our App in-app features at your fingertips:\n
+        • Personal security PIN to ensure protection;\n\n
+        • Track your credit with My Tala Extra Loans Status\n
+        • Easy repayment schedule that keeps you on track with your payments\n
+• Millions of customers success stories to inspire you on your journey\n
+• Easy repayment schedule keeps you on track with your payments\n
+• Maximum Amount\n
+• Interests and Rates\n
+• Number of Downloaded Apps\n
+• In-depth Analysis of the app\n
+• etc\n
+        </string>
+    <string name="prove">The law permits Credit providers to submit names of individuals with any Non-Performing Loans to Credit Reference Bureaus for blacklisting.
+
+There are currently three licensed CRB companies in Kenya:</string>
+</resources>

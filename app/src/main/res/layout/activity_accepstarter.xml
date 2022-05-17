@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/bg_small"
+    android:orientation="vertical"
+    tools:context="com.kopa.getfreeloan.activity_acceptstart">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:id="@+id/linetitle"
+            android:layout_width="571dp"
+            android:layout_height="731dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/coloraccept2"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:text="Loans For you 24/7"
+                android:textColor="@color/coloraccept2"
+                android:textSize="30sp"
+                app:fontFamily="sans-serif" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="233dp"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="We offer: \n•Higher loan limits from Ksh 500 to Ksh 50,000. \n• Loan terms: Shortest 91 days to longest 365 days \n• Interest Rate: Up to 26% APR \n• Service fee: 0% \n• Loan request: Need to be at least 18 years old\n\n"
+                android:textColor="@color/coloraccept2"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                ads:fontFamily="sans-serif" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="394dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/linetitle"
+                android:layout_alignLeft="@+id/linetitle"
+                android:fontFamily="sans-serif"
+                android:gravity="start"
+                android:text="Accept Terms and Conditions"
+                android:textColor="#03A9F4"
+                android:textColorHint="#03A9F4"
+                android:textSize="20sp"
+                ads:fontFamily="sans-serif" />
+
+            <Button
+                android:id="@+id/button_id"
+                android:layout_width="218dp"
+                android:layout_height="56dp"
+                android:layout_below="@+id/logo"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/ic_applynow"
+                android:fontFamily="sans-serif-medium"
+                android:onClick="next"
+                android:textAllCaps="false"
+                android:textColor="@color/text_input"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <com.applovin.mediation.ads.MaxAdView
+        xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        maxads:adUnitId="d3f4efd9f6e244da"
+        android:background="#FFFFFF"
+        android:id="@+id/maxbanner"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </com.applovin.mediation.ads.MaxAdView>
+</RelativeLayout>

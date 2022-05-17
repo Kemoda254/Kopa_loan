@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/adamina</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">22sp</item>
+        /// change your font
+    </style>
+</resources>

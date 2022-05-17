@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/img_bgrd"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".Eq_FormActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        />
+
+    <LinearLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:text="Submit Message"
+            android:textSize="20dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/coloredtext"
+            android:textColorHint="@color/colorHint" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:background="@drawable/edit_text"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="5dp">
+
+            <Spinner
+                android:id="@+id/spinnerCountries"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog"
+
+                android:theme="@style/mySpinnerItemStyle"
+                android:textColorHint="@color/colorHint"
+                />
+
+            <TextView
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="5dp"
+                android:textSize="16sp"
+                android:hint="Select App"
+                android:maxLength="10"
+                android:textColor="@color/coloredtext"
+                android:textColorHint="@color/colorHint"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edit_text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone No."
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_text"
+            android:nextFocusDown="@id/edit_text_password"
+            android:textColor="@color/coloredtext"
+            android:textColorHint="@color/colorHint" />
+
+
+        <EditText
+            android:id="@+id/edit_text_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text"
+            android:hint="Email"
+            android:layout_marginTop="10dp"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:nextFocusDown="@id/edit_text_phone"
+            android:textColor="@color/coloredtext"
+            android:textColorHint="@color/colorHint"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/edit_text_phone"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text"
+            android:hint="massage"
+            android:textAlignment="viewStart"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:nextFocusDown="@id/buttonContinue"
+            android:textColor="@color/coloredtext"
+            android:textColorHint="@color/colorHint"
+            android:gravity="start" />
+
+        <Button
+            android:id="@+id/buttonContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_bg"
+            android:onClick="next"
+            android:padding="10dp"
+            android:text="@string/send_text"
+            android:textAllCaps="false"
+            android:textColor="@color/txtMain" />
+
+
+    </LinearLayout>
+
+    <com.tapdaq.sdk.TMBannerAdView
+        android:id="@+id/adBanner"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

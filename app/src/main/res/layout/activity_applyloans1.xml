@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_small">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_small"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/coloraccept2"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:text="Loans For you 24/7"
+                android:textColor="@color/coloraccept2"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:paddingBottom="10dp"
+                android:text="Do you own this phone?"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="28sp"
+                ads:fontFamily="@font/josen" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <RadioButton
+                    android:id="@+id/radioOwn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes, this phone is mine"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="18sp"
+                    ads:fontFamily="@font/josen" />
+
+            </TableRow>
+
+            <RadioButton
+                android:id="@+id/radioOwn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No, Someone else owns this "
+                android:textColor="@color/coloraccept2"
+                android:textSize="18sp"
+                ads:fontFamily="@font/josen" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="10dp"
+                android:text="Did you get it new or used?"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="28sp"
+                ads:fontFamily="@font/josen" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="54dp">
+
+                <RadioButton
+                    android:id="@+id/radioOwn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="18sp"
+                    ads:fontFamily="@font/josen" />
+
+                <RadioButton
+                    android:id="@+id/radioOwn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Used"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="18sp"
+                    ads:fontFamily="@font/josen" />
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:paddingBottom="10dp"
+                android:text="How long have you been using this phone?"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="28sp"
+                ads:fontFamily="@font/josen" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="67dp">
+
+                <RadioButton
+                    android:id="@+id/radioOwn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0-6 Months"
+                    android:textColor="@color/coloredtext"
+                    android:textSize="18sp"
+                    ads:fontFamily="@font/josen" />
+
+                <RadioButton
+                    android:id="@+id/radioOwn2"
+                    android:layout_width="93dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="6-12 Months"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="18sp"
+                    ads:fontFamily="@font/josen" />
+
+                <RadioButton
+                    android:id="@+id/radioOwn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="1-10 Years"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="18sp"
+                    ads:fontFamily="@font/josen" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="193dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/btn_bg"
+                    android:onClick="back"
+                    android:text="Back"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@drawable/btn_bg"
+                    android:onClick="next"
+                    android:text="Next"
+                    android:textColor="@android:color/background_light" />
+            </TableRow>
+            <LinearLayout xmlns:maxads="http://schemas.applovin.com/android/1.0"
+                android:id="@+id/ads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+
+                ></LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

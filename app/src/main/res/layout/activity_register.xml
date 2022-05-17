@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_small"
+    tools:context="kopes.activity_register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/coloraccept2"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
+        android:background="@color/transparent">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@color/transparent"
+                android:dividerPadding="5dip"
+                android:isScrollContainer="true"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/reg1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="7dp"
+                    android:text="After you finish creating the account you will be able to apply for a loan immediately."
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    ads:fontFamily="sans-serif" />
+
+                <LinearLayout
+                    android:id="@+id/linlay1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/big_small"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="@dimen/big_small"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/username_text_input_layout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/reghight1"
+                        android:background="@color/transparent"
+                        android:textColorHint="@color/coloraccept2"
+                        ads:passwordToggleTint="@color/coloraccept2">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_user"
+                            android:drawableLeft="@drawable/ic_user"
+                            android:drawablePadding="7dp"
+                            android:drawableTint="@color/bg_draw"
+                            android:ems="10"
+                            android:fontFamily="sans-serif"
+                            android:hint="Enter Your Full Names"
+                            android:inputType="text"
+                            android:paddingStart="5dp"
+                            android:paddingLeft="@dimen/textpadding"
+                            android:paddingRight="@dimen/textpadding"
+                            android:textColor="@color/coloraccept2"
+                            android:textColorHint="@color/coloraccept2"
+                            android:textColorLink="@color/coloraccept2"
+                            android:textSize="20sp"
+                            tools:baselineAligned="false"
+                            tools:text="@tools:sample/first_names" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/username_text_input_layout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/reghight1"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/transparent"
+                        android:textColorHint="@color/coloraccept2">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/loanamount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:drawableLeft="@drawable/ic_icon1"
+                            android:drawablePadding="5dp"
+                            android:ems="10"
+                            android:fontFamily="@font/josen"
+                            android:hint="Your Email Address"
+                            android:inputType="text"
+                            android:paddingStart="5dp"
+                            android:paddingLeft="@dimen/textpadding"
+                            android:paddingRight="@dimen/textpadding"
+                            android:textColor="@color/coloraccept2"
+                            android:textColorHint="@color/coloraccept2"
+                            android:textSize="@dimen/textsize"
+                            ads:fontFamily="@font/josen" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/username_text_input_layout4"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/reghight1"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/transparent"
+                        android:textColorHint="@color/coloraccept2"
+                        app:passwordToggleEnabled="true">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:drawableLeft="@mipmap/password"
+                            android:drawablePadding="5dp"
+                            android:ems="10"
+                            android:fontFamily="sans-serif"
+                            android:hint="Password"
+                            android:inputType="textPassword"
+                            android:paddingStart="5dp"
+                            android:paddingLeft="@dimen/textpadding"
+                            android:paddingRight="@dimen/textpadding"
+                            android:textColor="@color/coloraccept2"
+                            android:textColorHint="@color/coloraccept2"
+                            android:textSize="@dimen/textsize"
+                            tools:text="@tools:sample/first_names" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/username_text_input_layout5"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/reghight1"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/transparent"
+                        android:textColorHint="@color/coloraccept2"
+                        app:passwordToggleEnabled="true">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/passwordd"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="10dp"
+                            android:drawableLeft="@mipmap/password"
+                            android:drawablePadding="5dp"
+                            android:ems="10"
+                            android:fontFamily="sans-serif"
+                            android:hint="Confirm Password"
+                            android:inputType="textPassword"
+                            android:paddingStart="5dp"
+                            android:paddingLeft="@dimen/textpadding"
+                            android:paddingRight="@dimen/textpadding"
+                            android:textColor="@color/coloraccept2"
+                            android:textColorHint="@color/coloraccept2"
+                            android:textSize="@dimen/textsize"
+                            tools:text="@tools:sample/first_names" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/terms1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/passwordd"
+                    android:layout_marginTop="3dp">
+
+                    <CheckBox
+                        android:id="@+id/checkbox_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                        android:layout_marginTop="0dp"
+                        android:background="@color/transparent"
+                        android:checked="true"
+                        android:text="By Clicking Register, you agree to our Terms and Conditions"
+                        android:textAppearance="@color/coloraccept2"
+                        android:textColor="@color/coloraccept2"
+                        android:textColorHint="@color/coloraccept2"
+                        android:textSize="8sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp">
+
+                    <Button
+                        android:id="@+id/request_loan"
+                        android:layout_width="210dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/register2"
+                        android:onClick="checkLogin"
+                        android:textColor="@color/coloraccept2" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <com.tapdaq.sdk.TMBannerAdView
+            android:id="@+id/adBanner"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

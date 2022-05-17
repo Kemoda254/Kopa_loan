@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_small">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/coloraccept2"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:text="Loans For you 24/7"
+                android:textColor="@color/coloraccept2"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:paddingBottom="10dp"
+                android:text="What is your highest level of education?"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="28sp"
+                ads:fontFamily="@font/josen" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="57dp">
+
+                <RadioButton
+                    android:id="@+id/radioOwn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="None"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="16sp"
+                    ads:fontFamily="@font/josen" />
+
+                <RadioButton
+                    android:id="@+id/radioOwn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:text="Primary"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="16sp"
+                    ads:fontFamily="@font/josen" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="54dp">
+
+                <RadioButton
+                    android:id="@+id/radioOwn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Secondary"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="16sp"
+                    ads:fontFamily="@font/josen" />
+
+                <RadioButton
+                    android:id="@+id/radioOwn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="College/University"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="16sp"
+                    ads:fontFamily="@font/josen" />
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="Select all that apply to you"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="28sp"
+                ads:fontFamily="@font/josen" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:text="Have a job"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Self Employed"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="59dp">
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="32dp"
+                    android:text="Student"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No Income"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="16sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="58dp">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="152dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/btn_bg"
+                    android:onClick="back"
+                    android:text="Back"
+                    android:textColor="@color/cardview_light_background" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="193dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@drawable/btn_bg"
+                    android:onClick="next"
+                    android:text="Next"
+                    android:textColor="@color/cardview_light_background" />
+
+            </TableRow>
+            <LinearLayout xmlns:maxads="http://schemas.applovin.com/android/1.0"
+                android:id="@+id/ads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+
+                ></LinearLayout>
+            <com.tapdaq.sdk.TMBannerAdView
+                android:id="@+id/adBanner"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

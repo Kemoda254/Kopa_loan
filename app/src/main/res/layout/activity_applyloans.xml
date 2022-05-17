@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_small"
+    android:clipToPadding="true"
+    tools:context="com.kopa.getfreeloan.activity_applyloans">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="732dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/transparent">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="364dp"
+            android:layout_height="561dp"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/lay_bg"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Apply loan"
+                    android:textAppearance="@color/colorPrimary"
+                    android:textColor="@color/coloredtext"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    ads:fontFamily="sans-serif" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/applytext"
+                    android:textAlignment="center"
+                    android:textAppearance="@color/colorPrimary"
+                    android:textColor="@color/coloredtext"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    ads:fontFamily="sans-serif" />
+
+                <LinearLayout
+                    android:id="@+id/linlay1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_login"
+                    android:layout_marginLeft="@dimen/big_small"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="@dimen/big_small"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/username_text_input_layout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:textColorHint="@color/text_input">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_margin="7dp"
+                            android:drawableLeft="@drawable/ic_apply"
+                            android:drawablePadding="5dp"
+                            android:ems="10"
+                            android:fontFamily="@font/josen"
+                            android:hint="Loan Amount"
+                            android:inputType="number"
+                            android:paddingLeft="@dimen/textpadding"
+                            android:paddingRight="@dimen/textpadding"
+                            android:textColor="@color/coloredtext"
+                            android:textSize="26dp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/request_loan"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@drawable/btn_bg"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp"
+                    android:text="Apply"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    ads:fontFamily="@font/josen" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <LinearLayout xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        android:id="@+id/ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+
+        ></LinearLayout>
+    <com.applovin.mediation.ads.MaxAdView
+        xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        maxads:adUnitId="d3f4efd9f6e244da"
+        android:background="#FFFFFF"
+        android:visibility="gone"
+        android:id="@+id/maxbanner"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

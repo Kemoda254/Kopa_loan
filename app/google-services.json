@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "519634866607",
+    "project_id": "moneypesa-b2f68",
+    "storage_bucket": "moneypesa-b2f68.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519634866607:android:761f0b35c98462b0689f5a",
+        "android_client_info": {
+          "package_name": "com.helkashkash.helapap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519634866607-3vtumj9icuh399ifib0rjrmdsc69ut4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAofIyCgOSzbhEY4zD3UnlVWaF5SPb3whc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519634866607-3vtumj9icuh399ifib0rjrmdsc69ut4h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

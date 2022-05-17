@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_CRB_Info"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="CRB Info" />
+        <item
+            android:id="@+id/nav_CRB_providers"
+            android:icon="@drawable/ic_crb_provider_black_24dp"
+            android:title="CRB Providers" />
+        <item
+            android:id="@+id/nav_Enquiries_Form"
+            android:icon="@drawable/ic_enquiryform"
+            android:title="Enquiries Form" />
+        <item
+            android:id="@+id/nav_About_Us"
+            android:icon="@drawable/ic_aboutus"
+            android:title="About Us" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+</menu>

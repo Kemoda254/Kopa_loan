@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg_small"
+    tools:context="com.kopa.getfreeloan.termscnds">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_small"
+            android:orientation="vertical">
+
+            <!--            <com.google.android.gms.ads.AdView-->
+            <!--                android:id="@+id/adView"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_alignParentStart="true"-->
+            <!--                android:layout_alignParentBottom="true"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:layout_weight="1"-->
+            <!--                app:adSize="BANNER"-->
+            <!--                app:adUnitId="ca-app-pub-9615722201592839/5627185872" />-->
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="Please read carefully before using this service."
+                android:textColor="@color/coloraccept2"
+                android:textSize="18sp"
+                app:fontFamily="@font/adamina" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/coloraccept2"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/adamina" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F5F0F0"
+                android:gravity="center"
+                android:text="We enable you to qualify to borrow small amounts over a short period of time. "
+                android:textColor="@color/coloraccept2"
+                android:textSize="18sp"
+                app:fontFamily="@font/adamina" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F5F0F0"
+                android:gravity="center"
+                android:text="TERMS OF SERVICE."
+                android:textColor="@color/coloraccept2"
+                android:textSize="18sp"
+                app:fontFamily="@font/adamina" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F5F0F0"
+                android:text="1. This is a contract."
+                android:textColor="@color/coloraccept2"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/adamina" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F5F0F0"
+                android:gravity="center"
+                android:text="These Terms constitute a contract. You may not use the service if you do not accept these terms. If you are under eighteen (18) years of age, you may not use the service"
+                android:textColor="@color/coloraccept2"
+                android:textSize="18sp"
+                app:fontFamily="@font/adamina" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F5F0F0"
+                android:text="2. If you fail to repay, you will be in default."
+                android:textColor="@color/coloraccept2"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/adamina" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F5F0F0"
+                android:gravity="center"
+                android:text="If you still have not repaid the loan amount and fees, by the end of the Rollover period, you will be in default."
+                android:textColor="@color/coloraccept2"
+                android:textSize="18sp"
+                app:fontFamily="@font/adamina" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F5F0F0"
+                android:text="3. Our fee is payable on top of the amount you borrow."
+                android:textColor="@color/coloraccept2"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/adamina" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F5F0F0"
+                android:gravity="center"
+                android:text="Following the account registration process, you may be offered the opportunity to apply for loans in certain amounts. We reserve the right to decline the loan application for any reason. However, if we accept your application and grant you a loan we will charge a fee you must pay to us on top of paying back the borrowed amount."
+                android:textColor="@color/coloraccept2"
+                android:textSize="18sp"
+                app:fontFamily="@font/adamina" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F5F0F0"
+                android:text="4. The service is provided without any warranties or guarantees."
+                android:textColor="@color/coloraccept2"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/adamina" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F5F0F0"
+                android:gravity="center"
+                android:text="The service is provided without warranty of ant kind. If you are dissatisfied with any portion of the service, or with these terms, your sole and exclusive remedy is to discontinue using the service."
+                android:textColor="@color/coloraccept2"
+                android:textSize="18sp"
+                app:fontFamily="@font/adamina" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#00F5F0F0"
+                android:text="5. We may modify these Terms."
+                android:textColor="@color/coloraccept2"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/adamina" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="These terms may be modified without notice at any time in the future. It is your responsibility to remain informed of any changes as you are bound by the latest version of the terms.."
+                android:textColor="@color/coloraccept2"
+                android:textSize="18sp"
+                app:fontFamily="@font/adamina" />
+
+            <LinearLayout
+                android:id="@+id/banner_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <!--            <com.google.android.gms.ads.AdView-->
+            <!--                android:id="@+id/adView3"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_alignParentStart="true"-->
+            <!--                android:layout_alignParentBottom="true"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:layout_weight="1"-->
+            <!--                app:adSize="BANNER"-->
+            <!--                app:adUnitId="@string/ad_id_banner" />-->
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:onClick="cancel"
+            android:text="Cancel"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/proceed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:onClick="proceed"
+            android:text="Agree"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+</RelativeLayout>

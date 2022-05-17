@@ -1,0 +1,96 @@
+plugins {
+    id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+    id 'com.android.application'
+    id 'applovin-quality-service'
+
+}
+
+
+android { signingConfigs {
+    config {
+    }
+}
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId 'com.shwa.kopes'
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionName '1.1'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        versionCode 1
+        multiDexEnabled true
+    }
+    android {
+        lintOptions {
+            checkReleaseBuilds false
+            // Or, if you prefer, you can continue to check for errors in release builds,
+            // but continue the build even when errors are found:
+            abortOnError false
+            aaptOptions.cruncherEnabled = false
+            aaptOptions.useNewCruncher = false
+        }
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+    buildToolsVersion "30.0.3"
+}
+android {
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+    }
+}
+
+applovin {
+    apiKey "tccfFq2TVKpUBMeFJxqgUFpoB3RBwwtDO_Z58qAOHoN47HbA8_tRTNEnshiFhM7a-Se1nnTMMls0RJ2SUI-4Gk"
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+
+    testImplementation 'junit:junit:4.13.2'
+    //noinspection GradleCompatible
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    //noinspection GradleCompatible
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    //noinspection GradleCompatible
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'androidx.annotation:annotation:1.2.0'
+    //noinspection GradleCompatible
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.applovin.mediation:facebook-adapter:6.6.0.0'
+    implementation 'androidx.annotation:annotation:1.2.0'
+    implementation 'com.facebook.android:facebook-android-sdk:[5,6)'
+    implementation 'com.onesignal:OneSignal:4.6.6'
+    implementation 'com.facebook.android:audience-network-sdk:6.7.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.applovin:applovin-sdk:10.3.3'
+    implementation 'com.tapdaq.sdk:Tapdaq-BaseSDK:7.9.0'
+    implementation 'com.tapdaq.sdk:TapdaqFANAdapter:7.9.0'
+    implementation 'androidx.annotation:annotation:1.2.0'
+    implementation 'com.tapdaq.sdk:TapdaqAdMobAdapter:7.9.0'
+    implementation "com.squareup.retrofit2:adapter-rxjava2:2.3.0"
+
+   // implementation 'com.facebook.android:audience-network-sdk:6.+'
+
+}
+repositories {
+    mavenCentral()
+}

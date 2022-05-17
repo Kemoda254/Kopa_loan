@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_small"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|fill_vertical"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="@color/menuasset"
+                    android:text="CONFIRMATION"
+                    android:gravity="center"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dearcus"
+                    android:layout_margin="15dp"
+                    android:gravity="start|left"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/coloraccept2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/amountr"
+                    android:layout_gravity="center"
+                    android:textColor="@color/coloraccept2"
+                    android:layout_marginRight="10dp"
+                    android:textSize="22sp"
+                    android:onClick="confirmmpesa"
+                   />
+
+                <Button
+                    android:id="@+id/copytill"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/layout_1"
+                    android:drawableEnd="@drawable/ic_baseline_file_copy_24"
+                    android:drawableRight="@drawable/ic_baseline_file_copy_24"
+                    android:gravity="left"
+                    android:textSize="18sp"
+                    android:onClick="copytillnumber"
+                    android:padding="10dp"
+                    android:text="click to copy till number (9331875)"
+                    android:textColor="@color/coloraccept2" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/btn_bg"
+                    android:onClick="confirmmpesa"
+                    android:text="OR" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_view1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:text="@string/confirmaccount"
+                        android:textColor="@color/gradStart"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="74dp"
+                    android:id="@+id/password1"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/curve_bg_input"
+                    android:hint="paste mpesa here"
+                    android:gravity="center"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/brg2"
+                    android:onClick="confirmmpesa"
+                    android:text="Confirm Message" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

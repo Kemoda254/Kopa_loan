@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_small"
+    tools:context="com.kopa.getfreeloan.firsttime">
+
+
+    <!--    <com.google.android.gms.ads.AdView-->
+    <!--        android:id="@+id/adView"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/scrollView1"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginTop="100dp"-->
+    <!--        ads:adSize="SMART_BANNER"-->
+    <!--        ads:adUnitId="ca-app-pub-9615722201592839/5627185872" />-->
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/coloraccept2"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif" />
+
+    <RelativeLayout
+        android:layout_width="621dp"
+        android:layout_height="448dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="@dimen/rev1"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/transparent">
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/transparent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:text="FOR FIRST TIME USERS ONLY"
+                    android:textAppearance="@color/coloraccept2"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    ads:fontFamily="sans-serif" />
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Business Loan: Ksh. 200,000 (Max)"
+                    android:textColor="@color/coloraccept2"
+                    android:textColorHighlight="@color/coloraccept2"
+                    android:textColorLink="@color/coloraccept2"
+                    android:textSize="18dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Personal Loan: Ksh.50,000 (Max)"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="18dp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="Emergency Loan: Ksh. 20,000 (Max)"
+                    android:textColor="@color/coloraccept2"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="256dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/btn_bg"
+                    android:onClick="button11"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp"
+                    android:text="PROCEED"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    ads:fontFamily="@font/josen" />
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+    <LinearLayout xmlns:maxads="http://schemas.applovin.com/android/1.0"
+        android:id="@+id/ads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+
+        ></LinearLayout>
+    <com.tapdaq.sdk.TMBannerAdView
+    android:id="@+id/adBanner"
+    android:layout_alignParentBottom="true"
+    android:layout_width="wrap_content"
+        android:visibility="gone"
+    android:layout_height="wrap_content"/>
+
+</RelativeLayout>
